@@ -1,0 +1,2151 @@
+Starting experiment fly_spec_seed0_test_depth4_nas_001
+
+data for architecture search
+batch num of train: 17
+batch num of valid: 11
+data for architecture search
+batch num of train: 27
+batch num of valid: 4
+total num of test: 1050
+with loss function: crossentropy
+current depth 0  after 2
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0 | 0.1666666716337204  valid 1  : Fold  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last5Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last10Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window7Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window5Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  Fold
+---- subm foldfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.1666666716337204  valid 1  : Fold  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last5Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last10Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window7Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window5Avg  | 
+
+---- subm function1
+-- weight 0.0 | 0.1666666716337204  valid 1  : Fold  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last5Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last10Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window7Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window5Avg  | 
+
+---- subm function2
+-- weight 0.0 | 0.1666666716337204  valid 1  : Fold  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last5Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Last10Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window7Avg  | 
+-- weight 0.0 | 0.1666666716337204  valid 1  : Window5Avg  | 
+
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+number of architecture parameters 64
+number of model parameters 33413
+ratio between arch/model parameter is: 0.001915422141082812
+learning rate: 0.001 | 0.001
+------------------------
+training epoch: 0
+architecture loss: 1.868959251572104
+model loss: 1.8816349085639505
+Validation score is: 0.3920
+Average f1-score is: 0.6080
+Hamming accuracy is: 0.5320
+------------------------
+training epoch: 1
+architecture loss: 1.6748678964727066
+model loss: 1.7017083168029785
+Validation score is: 0.3227
+Average f1-score is: 0.6773
+Hamming accuracy is: 0.6082
+------------------------
+training epoch: 2
+get Nan, delete invalid branch
+architecture loss: 1.4645018577575684
+model loss: 1.493406323825612
+Validation score is: 0.2766
+Average f1-score is: 0.7234
+Hamming accuracy is: 0.6568
+------------------------
+training epoch: 3
+architecture loss: 1.2348947174408857
+model loss: 1.2743939862531775
+Validation score is: 0.1986
+Average f1-score is: 0.8014
+Hamming accuracy is: 0.7302
+------------------------
+training epoch: 4
+architecture loss: 1.053361896206351
+model loss: 1.0662047442267923
+Validation score is: 0.1288
+Average f1-score is: 0.8712
+Hamming accuracy is: 0.7920
+Validation score is: 0.1263
+Average f1-score is: 0.8737
+Hamming accuracy is: 0.7962
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.09732673317193985 | 0.18900711834430695  valid 1  : Fold  | 
+-- weight -0.09985524415969849 | 0.1551826298236847  valid 1  : Last5Avg  | 
+-- weight 0.09546396136283875 | 0.18865537643432617  valid 1  : SimpleITE  | 
+-- weight -0.10069050639867783 | 0.1550530642271042  valid 1  : Last10Avg  | 
+-- weight -0.0983848124742508 | 0.1554109752178192  valid 1  : Window7Avg  | 
+-- weight -0.09018346667289734 | 0.1566908061504364  valid 1  : Window5Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  Fold
+---- subm foldfunction
+-- weight 0.08328713476657867 | 0.13904595375061035  valid 1  : SimpleITE  | 
+-- weight 0.09782855957746506 | 0.14108264446258545  valid 1  : Add  | 
+-- weight 0.020508283749222755 | 0.13058516383171082  valid 0  : Multiply  | 
+-- weight -0.0757315382361412 | 0.11860347539186478  valid 1  : WingSelect  | 
+-- weight -0.0981035903096199 | 0.11597952246665955  valid 1  : RatioSelect  | 
+-- weight -0.07172536104917526 | 0.11907956749200821  valid 1  : PositionalSelect  | 
+-- weight -0.0976538360118866 | 0.1160317063331604  valid 1  : AngularSelect  | 
+-- weight -0.0674309954047203 | 0.11959204077720642  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- weight 0.07343099266290665 | 0.134231835603714  valid 1  : SimpleITE  | 
+-- weight 0.057870589196681976 | 0.1321592926979065  valid 1  : Add  | 
+-- weight 0.1090274378657341 | 0.13909606635570526  valid 1  : Multiply  | 
+-- weight -0.08665315806865692 | 0.11437518894672394  valid 1  : WingSelect  | 
+-- weight 0.022667253389954567 | 0.12758778035640717  valid 1  : RatioSelect  | 
+-- weight -0.044212743639945984 | 0.11933380365371704  valid 1  : PositionalSelect  | 
+-- weight -0.05786681920289993 | 0.11771548539400101  valid 1  : AngularSelect  | 
+-- weight -0.07686178386211395 | 0.11550059169530869  valid 1  : LinearSelect  | 
+
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- weight 0.11487147957086563 | 0.18711739778518677  valid 1  : Fold  | 
+-- weight -0.053062859922647476 | 0.1581908017396927  valid 1  : Last5Avg  | 
+-- weight -0.09933222830295563 | 0.15103815495967865  valid 1  : SimpleITE  | 
+-- weight 0.09897535294294357 | 0.18416647613048553  valid 1  : Last10Avg  | 
+-- weight -0.028356391936540604 | 0.16214781999588013  valid 1  : Window7Avg  | 
+-- weight -0.05846020206809044 | 0.15733928978443146  valid 1  : Window5Avg  | 
+
+---- subm function1
+-- weight -0.045406509190797806 | 0.15688979625701904  valid 1  : Fold  | 
+-- weight -0.028256569057703018 | 0.15960364043712616  valid 1  : Last5Avg  | 
+-- weight -0.09005015343427658 | 0.1500397026538849  valid 1  : SimpleITE  | 
+-- weight 0.0718943253159523 | 0.17641593515872955  valid 1  : Last10Avg  | 
+-- weight 0.08267486095428467 | 0.17832808196544647  valid 1  : Window7Avg  | 
+-- weight 0.08488620072603226 | 0.17872285842895508  valid 1  : Window5Avg  | 
+
+---- subm function2
+-- weight 0.020508110523223877 | 0.16990326344966888  valid 1  : Fold  | 
+-- weight -0.06918850541114807 | 0.15532700717449188  valid 1  : Last5Avg  | 
+-- weight -0.09592156112194061 | 0.15122966468334198  valid 1  : SimpleITE  | 
+-- weight -0.007256140001118183 | 0.16525092720985413  valid 1  : Last10Avg  | 
+-- weight 0.10986816138029099 | 0.18578486144542694  valid 1  : Window7Avg  | 
+-- weight 0.03570026159286499 | 0.17250417172908783  valid 1  : Window5Avg  | 
+
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- weight 0.06781242042779922 | 0.13353660702705383  valid 1  : SimpleITE  | 
+-- weight 0.0565485842525959 | 0.13204091787338257  valid 1  : Add  | 
+-- weight 0.10677303373813629 | 0.13884195685386658  valid 1  : Multiply  | 
+-- weight -0.08679872751235962 | 0.1144072636961937  valid 1  : WingSelect  | 
+-- weight 0.024729276075959206 | 0.12790560722351074  valid 1  : RatioSelect  | 
+-- weight -0.04343007877469063 | 0.11947811394929886  valid 1  : PositionalSelect  | 
+-- weight -0.05420137941837311 | 0.11819807440042496  valid 1  : AngularSelect  | 
+-- weight -0.07650163024663925 | 0.11559140682220459  valid 1  : LinearSelect  | 
+
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- weight 0.08278702944517136 | 0.13611726462841034  valid 1  : SimpleITE  | 
+-- weight 0.07954198122024536 | 0.1356762796640396  valid 1  : Add  | 
+-- weight 0.09544365853071213 | 0.13785099983215332  valid 1  : Multiply  | 
+-- weight -0.061093490570783615 | 0.11787635087966919  valid 1  : WingSelect  | 
+-- weight -0.002040188293904066 | 0.1250469833612442  valid 1  : RatioSelect  | 
+-- weight -0.09969943761825562 | 0.11341235786676407  valid 1  : PositionalSelect  | 
+-- weight -0.06136256456375122 | 0.11784464865922928  valid 1  : AngularSelect  | 
+-- weight -0.07563065737485886 | 0.11617516726255417  valid 1  : LinearSelect  | 
+
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- weight 0.0813424289226532 | 0.13613776862621307  valid 1  : SimpleITE  | 
+-- weight 0.07415931671857834 | 0.13516338169574738  valid 1  : Add  | 
+-- weight 0.10378362238407135 | 0.13922740519046783  valid 1  : Multiply  | 
+-- weight -0.06956404447555542 | 0.11706870049238205  valid 1  : WingSelect  | 
+-- weight -0.015445953235030174 | 0.12357880175113678  valid 1  : RatioSelect  | 
+-- weight -0.09659463167190552 | 0.11394664645195007  valid 1  : PositionalSelect  | 
+-- weight -0.05534103512763977 | 0.11874566227197647  valid 1  : AngularSelect  | 
+-- weight -0.07760025560855865 | 0.11613167822360992  valid 1  : LinearSelect  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  SimpleITE
+---- subm evalfunction
+-- NN ListToAtomModule
+---- subm function1
+-- NN ListToAtomModule
+---- subm function2
+-- NN ListToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 4  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 5  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+
+
+
+time spend: 1600.111188173294 
+
+current depth 2  after 2
+
+search for top 4
+Validation score is: 0.1364
+Average f1-score is: 0.8636
+Hamming accuracy is: 0.7876
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.09732673317193985 | 0.27401697635650635  valid 1  : Fold  | 
+-- weight 0.09546396136283875 | 0.2735070288181305  valid 1  : SimpleITE  | 
+-- weight -0.09018346667289734 | 0.22716574370861053  valid 1  : Window5Avg  | 
+-- weight -0.0983848124742508 | 0.225310280919075  valid 1  : Window7Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  Fold
+---- subm foldfunction
+-- weight 0.09782855957746506 | 0.2719402313232422  valid 1  : Add  | 
+-- weight 0.08328713476657867 | 0.26801446080207825  valid 1  : SimpleITE  | 
+-- weight -0.0674309954047203 | 0.23051656782627106  valid 1  : LinearSelect  | 
+-- weight -0.07172536104917526 | 0.2295287698507309  valid 1  : PositionalSelect  | 
+
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.11487147957086563 | 0.2705484628677368  valid 1  : Fold  | 
+-- weight 0.09897535294294357 | 0.26628178358078003  valid 1  : Last10Avg  | 
+-- weight -0.028356391936540604 | 0.23444555699825287  valid 1  : Window7Avg  | 
+-- weight -0.053062859922647476 | 0.22872419655323029  valid 1  : Last5Avg  | 
+
+---- subm function1
+-- weight 0.08488620072603226 | 0.2578711211681366  valid 1  : Window5Avg  | 
+-- weight 0.08267486095428467 | 0.2573015093803406  valid 1  : Window7Avg  | 
+-- weight 0.0718943253159523 | 0.2545425593852997  valid 1  : Last10Avg  | 
+-- weight -0.028256569057703018 | 0.23028486967086792  valid 1  : Last5Avg  | 
+
+---- subm function2
+-- weight 0.10986816138029099 | 0.2679164707660675  valid 1  : Window7Avg  | 
+-- weight 0.03570026159286499 | 0.24876467883586884  valid 1  : Window5Avg  | 
+-- weight 0.020508110523223877 | 0.24501395225524902  valid 1  : Fold  | 
+-- weight -0.007256140001118183 | 0.23830489814281464  valid 1  : Last10Avg  | 
+
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- weight 0.10378362238407135 | 0.26067307591438293  valid 1  : Multiply  | 
+-- weight 0.0813424289226532 | 0.2548884153366089  valid 1  : SimpleITE  | 
+-- weight 0.07415931671857834 | 0.2530640661716461  valid 1  : Add  | 
+-- weight -0.015445953235030174 | 0.23137445747852325  valid 1  : RatioSelect  | 
+
+---- prog 3  :  Window7Avg
+---- subm subfunction
+-- weight 0.09544365853071213 | 0.25781407952308655  valid 1  : Multiply  | 
+-- weight 0.08278702944517136 | 0.2545715868473053  valid 1  : SimpleITE  | 
+-- weight 0.07954198122024536 | 0.2537468373775482  valid 1  : Add  | 
+-- weight -0.002040188293904066 | 0.23386754095554352  valid 1  : RatioSelect  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  LinearSelect
+---- prog 3  :  PositionalSelect
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  RatioSelect
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+number of architecture parameters 28
+number of model parameters 12061
+ratio between arch/model parameter is: 0.0023215322112594312
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.8243167610729442
+model loss: 0.8089202432071462
+Validation score is: 0.1294
+Average f1-score is: 0.8706
+Hamming accuracy is: 0.7948
+------------------------
+training epoch: 1
+architecture loss: 0.7124855343033286
+model loss: 0.7068193905493793
+Validation score is: 0.1286
+Average f1-score is: 0.8714
+Hamming accuracy is: 0.7994
+------------------------
+training epoch: 2
+architecture loss: 0.682353815611671
+model loss: 0.6313224443617989
+Validation score is: 0.1296
+Average f1-score is: 0.8704
+Hamming accuracy is: 0.8013
+Validation score is: 0.1257
+Average f1-score is: 0.8743
+Hamming accuracy is: 0.8038
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.1030850037932396 | 0.27533891797065735  valid 1  : Fold  | 
+-- weight 0.11465416848659515 | 0.2785428464412689  valid 1  : SimpleITE  | 
+-- weight -0.09810654073953629 | 0.22515998780727386  valid 1  : Window5Avg  | 
+-- weight -0.1169438511133194 | 0.22095827758312225  valid 1  : Window7Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  Fold
+---- subm foldfunction
+-- weight 0.09454195201396942 | 0.2711597979068756  valid 1  : Add  | 
+-- weight 0.06927303224802017 | 0.26439371705055237  valid 1  : SimpleITE  | 
+-- weight -0.05448424071073532 | 0.23361679911613464  valid 1  : LinearSelect  | 
+-- weight -0.06648582965135574 | 0.23082977533340454  valid 1  : PositionalSelect  | 
+
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.13751986622810364 | 0.2779717445373535  valid 1  : Fold  | 
+-- weight 0.10292433202266693 | 0.2685196101665497  valid 1  : Last10Avg  | 
+-- weight -0.056190382689237595 | 0.22901996970176697  valid 1  : Window7Avg  | 
+-- weight -0.07617436349391937 | 0.22448866069316864  valid 1  : Last5Avg  | 
+
+---- subm function1
+-- weight 0.08434796333312988 | 0.25681912899017334  valid 1  : Window5Avg  | 
+-- weight 0.05700518935918808 | 0.24989211559295654  valid 1  : Window7Avg  | 
+-- weight 0.09125757962465286 | 0.25859978795051575  valid 1  : Last10Avg  | 
+-- weight -0.005762833636254072 | 0.23468899726867676  valid 1  : Last5Avg  | 
+
+---- subm function2
+-- weight 0.12692975997924805 | 0.27233895659446716  valid 1  : Window7Avg  | 
+-- weight 0.014841608703136444 | 0.24346162378787994  valid 1  : Window5Avg  | 
+-- weight 0.041904766112565994 | 0.2501404285430908  valid 1  : Fold  | 
+-- weight -0.024544497951865196 | 0.23405900597572327  valid 1  : Last10Avg  | 
+
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- weight 0.10375388711690903 | 0.26157867908477783  valid 1  : Multiply  | 
+-- weight 0.09044405817985535 | 0.25812017917633057  valid 1  : SimpleITE  | 
+-- weight 0.053179215639829636 | 0.24867838621139526  valid 1  : Add  | 
+-- weight -0.017871331423521042 | 0.23162272572517395  valid 1  : RatioSelect  | 
+
+---- prog 3  :  Window7Avg
+---- subm subfunction
+-- weight 0.08798843622207642 | 0.2564743459224701  valid 1  : Multiply  | 
+-- weight 0.09525897353887558 | 0.2583458423614502  valid 1  : SimpleITE  | 
+-- weight 0.05910426750779152 | 0.24917225539684296  valid 1  : Add  | 
+-- weight 0.004823469556868076 | 0.23600752651691437  valid 1  : RatioSelect  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  LinearSelect
+---- prog 3  :  PositionalSelect
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 3  :  RatioSelect
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 3  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+
+
+
+time spend: 501.5370862483978 
+
+current depth 2  after 2
+
+search for top 3
+Validation score is: 0.1291
+Average f1-score is: 0.8709
+Hamming accuracy is: 0.8057
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.11465416848659515 | 0.3575454652309418  valid 1  : SimpleITE  | 
+-- weight 0.1030850037932396 | 0.3534328043460846  valid 1  : Fold  | 
+-- weight -0.09810654073953629 | 0.28902173042297363  valid 1  : Window5Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.13751986622810364 | 0.3584367334842682  valid 1  : Fold  | 
+-- weight 0.10292433202266693 | 0.34624844789505005  valid 1  : Last10Avg  | 
+-- weight -0.056190382689237595 | 0.2953147888183594  valid 1  : Window7Avg  | 
+
+---- subm function1
+-- weight 0.09125757962465286 | 0.3379015624523163  valid 1  : Last10Avg  | 
+-- weight 0.08434796333312988 | 0.33557483553886414  valid 1  : Window5Avg  | 
+-- weight 0.05700518935918808 | 0.3265236020088196  valid 1  : Window7Avg  | 
+
+---- subm function2
+-- weight 0.12692975997924805 | 0.3555612862110138  valid 1  : Window7Avg  | 
+-- weight 0.041904766112565994 | 0.3265792429447174  valid 1  : Fold  | 
+-- weight 0.014841608703136444 | 0.3178595304489136  valid 1  : Window5Avg  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.09454195201396942 | 0.3525354564189911  valid 1  : Add  | 
+-- weight 0.06927303224802017 | 0.343738853931427  valid 1  : SimpleITE  | 
+-- weight -0.05448424071073532 | 0.3037257194519043  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- weight 0.10375388711690903 | 0.34043002128601074  valid 1  : Multiply  | 
+-- weight 0.09044405817985535 | 0.3359289765357971  valid 1  : SimpleITE  | 
+-- weight 0.053179215639829636 | 0.32364100217819214  valid 1  : Add  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+number of architecture parameters 18
+number of model parameters 10539
+ratio between arch/model parameter is: 0.0017079419299743809
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.6124950927846572
+model loss: 0.590307784431121
+Validation score is: 0.1377
+Average f1-score is: 0.8623
+Hamming accuracy is: 0.8036
+------------------------
+training epoch: 1
+architecture loss: 0.566544820280636
+model loss: 0.5416197268401876
+Validation score is: 0.1363
+Average f1-score is: 0.8637
+Hamming accuracy is: 0.8121
+------------------------
+training epoch: 2
+architecture loss: 0.5513747772749733
+model loss: 0.508883968433913
+Validation score is: 0.1332
+Average f1-score is: 0.8668
+Hamming accuracy is: 0.8219
+Validation score is: 0.1319
+Average f1-score is: 0.8681
+Hamming accuracy is: 0.8210
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.12744559347629547 | 0.3605875074863434  valid 1  : SimpleITE  | 
+-- weight 0.0861179307103157 | 0.34598901867866516  valid 1  : Fold  | 
+-- weight -0.0786719098687172 | 0.2934235632419586  valid 1  : Window5Avg  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.14107628166675568 | 0.35878023505210876  valid 1  : Fold  | 
+-- weight 0.1259220689535141 | 0.35338419675827026  valid 1  : Last10Avg  | 
+-- weight -0.07924441993236542 | 0.28783556818962097  valid 1  : Window7Avg  | 
+
+---- subm function1
+-- weight 0.11622172594070435 | 0.3471498191356659  valid 1  : Last10Avg  | 
+-- weight 0.07577716559171677 | 0.33338963985443115  valid 1  : Window5Avg  | 
+-- weight 0.033099062740802765 | 0.31946054100990295  valid 1  : Window7Avg  | 
+
+---- subm function2
+-- weight 0.12849976122379303 | 0.35609331727027893  valid 1  : Window7Avg  | 
+-- weight 0.05847591534256935 | 0.33201131224632263  valid 1  : Fold  | 
+-- weight -0.004025320988148451 | 0.31189534068107605  valid 1  : Window5Avg  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.08093315362930298 | 0.34647297859191895  valid 1  : Add  | 
+-- weight 0.08330317586660385 | 0.3472951054573059  valid 1  : SimpleITE  | 
+-- weight -0.04252876713871956 | 0.3062319755554199  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- weight 0.12757864594459534 | 0.3507068157196045  valid 1  : Multiply  | 
+-- weight 0.06632272899150848 | 0.32986870408058167  valid 1  : SimpleITE  | 
+-- weight 0.03414909541606903 | 0.3194245398044586  valid 1  : Add  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 2
+---- prog 0  :  Multiply
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 2  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 2  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+
+
+
+time spend: 334.47628235816956 
+
+current depth 2  after 2
+
+search for top 2
+Validation score is: 0.1321
+Average f1-score is: 0.8679
+Hamming accuracy is: 0.8162
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.12744559347629547 | 0.5103304386138916  valid 1  : SimpleITE  | 
+-- weight 0.0861179307103157 | 0.489669531583786  valid 1  : Fold  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.14107628166675568 | 0.5037884712219238  valid 1  : Fold  | 
+-- weight 0.1259220689535141 | 0.4962114989757538  valid 1  : Last10Avg  | 
+
+---- subm function1
+-- weight 0.11622172594070435 | 0.5101097822189331  valid 1  : Last10Avg  | 
+-- weight 0.07577716559171677 | 0.48989027738571167  valid 1  : Window5Avg  | 
+
+---- subm function2
+-- weight 0.12849976122379303 | 0.517498791217804  valid 1  : Window7Avg  | 
+-- weight 0.05847591534256935 | 0.48250117897987366  valid 1  : Fold  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.08330317586660385 | 0.5005925297737122  valid 1  : SimpleITE  | 
+-- weight 0.08093315362930298 | 0.4994075298309326  valid 1  : Add  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+number of architecture parameters 10
+number of model parameters 5627
+ratio between arch/model parameter is: 0.001777145903678692
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5411587006905499
+model loss: 0.5289096166105831
+Validation score is: 0.1327
+Average f1-score is: 0.8673
+Hamming accuracy is: 0.8252
+------------------------
+training epoch: 1
+architecture loss: 0.5115375238306382
+model loss: 0.481897556606461
+Validation score is: 0.1209
+Average f1-score is: 0.8791
+Hamming accuracy is: 0.8410
+------------------------
+training epoch: 2
+architecture loss: 0.5022694976890788
+model loss: 0.4587675657342462
+Validation score is: 0.1128
+Average f1-score is: 0.8872
+Hamming accuracy is: 0.8518
+Validation score is: 0.1177
+Average f1-score is: 0.8823
+Hamming accuracy is: 0.8457
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.14688372611999512 | 0.5200402736663818  valid 1  : SimpleITE  | 
+-- weight 0.06667984277009964 | 0.4799598157405853  valid 1  : Fold  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.12109386175870895 | 0.4937976598739624  valid 1  : Fold  | 
+-- weight 0.14590448141098022 | 0.5062023401260376  valid 1  : Last10Avg  | 
+
+---- subm function1
+-- weight 0.1413642019033432 | 0.5226668119430542  valid 1  : Last10Avg  | 
+-- weight 0.050634682178497314 | 0.4773331582546234  valid 1  : Window5Avg  | 
+
+---- subm function2
+-- weight 0.1338987648487091 | 0.5201944708824158  valid 1  : Window7Avg  | 
+-- weight 0.053076907992362976 | 0.47980552911758423  valid 1  : Fold  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.09934583306312561 | 0.5086129903793335  valid 1  : SimpleITE  | 
+-- weight 0.06489049643278122 | 0.4913870394229889  valid 1  : Add  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  Add
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Last10Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- NN AtomToAtomModule
+---- prog 1  :  Fold
+---- subm foldfunction
+-- NN AtomToAtomModule
+
+
+
+time spend: 153.01871252059937 
+
+current depth 2  after 4
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.14688372611999512 | 0.5200402736663818  valid 1  : SimpleITE  | 
+-- weight 0.06667984277009964 | 0.4799598157405853  valid 1  : Fold  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 7)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.12109386175870895 | 0.4937976598739624  valid 1  : Fold  | 
+-- weight 0.14590448141098022 | 0.5062023401260376  valid 1  : Last10Avg  | 
+
+---- subm function1
+-- weight 0.1413642019033432 | 0.5226668119430542  valid 1  : Last10Avg  | 
+-- weight 0.050634682178497314 | 0.4773331582546234  valid 1  : Window5Avg  | 
+
+---- subm function2
+-- weight 0.1338987648487091 | 0.5201944708824158  valid 1  : Window7Avg  | 
+-- weight 0.053076907992362976 | 0.47980552911758423  valid 1  : Fold  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.09934583306312561 | 0.5086129903793335  valid 1  : SimpleITE  | 
+-- weight 0.06489049643278122 | 0.4913870394229889  valid 1  : Add  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('list', 'atom', 53, 1)    debug 2
+---- prog 0  :  Fold
+---- subm foldfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Last10Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+------ type sign contain ('atom', 'atom', 60, 7)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+-------- Node 1
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Last10Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Window5Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+-------- Node 2
+------ type sign contain ('list', 'atom', 53, 7)    debug 2
+---- prog 0  :  Window7Avg
+---- subm subfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Fold
+---- subm foldfunction
+-- weight 0.0 | 0.125  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.125  valid 1  : Add  | 
+-- weight 0.0 | 0.125  valid 1  : Multiply  | 
+-- weight 0.0 | 0.125  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.125  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.125  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.125  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.125  valid 1  : LinearSelect  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 54, 1)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 1)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 1)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+-------- Node 1
+------ type sign contain ('atom', 'atom', 60, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+-------- Node 2
+------ type sign contain ('atom', 'atom', 60, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+-------- Node 3
+------ type sign contain ('atom', 'atom', 53, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+-------- Node 4
+------ type sign contain ('atom', 'atom', 53, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 3
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 1  :  Add
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 2  :  Multiply
+---- subm function1
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- subm function2
+-- weight 0.0 | 0.20000000298023224  valid 1  : WingSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : RatioSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : PositionalSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : AngularSelect  | 
+-- weight 0.0 | 0.20000000298023224  valid 1  : LinearSelect  | 
+
+---- prog 3  :  WingSelect
+---- prog 4  :  RatioSelect
+---- prog 5  :  PositionalSelect
+---- prog 6  :  AngularSelect
+---- prog 7  :  LinearSelect
+
+---------- depth 4 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 54, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 1
+------ type sign contain ('atom', 'atom', 54, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 2
+------ type sign contain ('atom', 'atom', 54, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 3
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 4
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 5
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 6
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 7
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 8
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 9
+------ type sign contain ('atom', 'atom', 53, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 10
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 11
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 12
+------ type sign contain ('atom', 'atom', 53, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 1)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 13
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+-------- Node 14
+------ type sign contain ('atom', 'atom', 53, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+------ type sign contain ('atom', 'atom', 60, 7)    debug 4
+---- prog 0  :  WingSelect
+---- prog 1  :  RatioSelect
+---- prog 2  :  PositionalSelect
+---- prog 3  :  AngularSelect
+---- prog 4  :  LinearSelect
+number of architecture parameters 413
+number of model parameters 7330
+ratio between arch/model parameter is: 0.056343792633015005
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 1.9261220132603365
+model loss: 1.9278687589308794
+Validation score is: 0.9117
+Average f1-score is: 0.0883
+Hamming accuracy is: 0.1290
+------------------------
+training epoch: 1

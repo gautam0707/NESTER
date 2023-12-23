@@ -1,0 +1,102 @@
+Starting experiment jobs_depth3_nas_001
+
+data for architecture search
+batch num of train: 26
+batch num of valid: 7
+data for architecture search
+batch num of train: 33
+batch num of valid: 9
+total num of test: 642
+with loss function: mseloss
+current depth 0  after 2
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : FullFeatureSelect  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : ConvergeNormal  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : FullFeatureSelect  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : ConvergeNormal  | 
+
+---- subm function1
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : FullFeatureSelect  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : ConvergeNormal  | 
+
+---- subm function2
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : FullFeatureSelect  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : ConvergeNormal  | 
+
+---- prog 1  :  FullFeatureSelect
+---- prog 2  :  ConvergeNormal
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  FullFeatureSelect
+---- prog 2  :  ConvergeNormal
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  FullFeatureSelect
+---- prog 2  :  ConvergeNormal
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  FullFeatureSelect
+---- prog 2  :  ConvergeNormal
+number of architecture parameters 12
+number of model parameters 1669
+ratio between arch/model parameter is: 0.007189934092270821
+learning rate: 0.001 | 0.001
+------------------------
+training epoch: 0
+architecture loss: 0.6094641868884747
+model loss: 0.6154574144345063
+------------------------
+training epoch: 1
+architecture loss: 0.5212479783938482
+model loss: 0.5472792421395962
+------------------------
+training epoch: 2
+architecture loss: 0.4935278777892773
+model loss: 0.5200202688574791
+------------------------
+training epoch: 3
+architecture loss: 0.507684140251233
+model loss: 0.5139953666008436
+------------------------
+training epoch: 4

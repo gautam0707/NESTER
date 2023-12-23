@@ -1,0 +1,582 @@
+Starting experiment jobs_depth1_nas_001
+
+data for architecture search
+batch num of train: 26
+batch num of valid: 7
+data for architecture search
+batch num of train: 33
+batch num of valid: 9
+total num of test: 642
+with loss function: mseloss
+current depth 0  after 2
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0 | 0.5  valid 1  : FullFeatureSelect  | 
+-- weight 0.0 | 0.5  valid 1  : ConvergeNormal  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  FullFeatureSelect
+---- prog 1  :  ConvergeNormal
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.001 | 0.001
+------------------------
+training epoch: 0
+architecture loss: 0.5834953383757517
+model loss: 0.5500034414804899
+------------------------
+training epoch: 1
+architecture loss: 0.5486897768882605
+model loss: 0.5240789445546957
+------------------------
+training epoch: 2
+architecture loss: 0.545239963210546
+model loss: 0.5129079646789111
+------------------------
+training epoch: 3
+architecture loss: 0.523681348332992
+model loss: 0.5070848006468552
+------------------------
+training epoch: 4
+architecture loss: 0.5371693051778353
+model loss: 0.5039879519205827
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.06990183144807816 | 0.46510592103004456  valid 1  : FullFeatureSelect  | 
+-- weight 0.06990183144807816 | 0.5348941087722778  valid 1  : ConvergeNormal  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  FullFeatureSelect
+---- prog 1  :  ConvergeNormal
+
+
+
+time spend: 0.9096207618713379 
+
+current depth 2  after 2
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.06990183144807816 | 0.5348941087722778  valid 1  : ConvergeNormal  | 
+-- weight -0.06990183144807816 | 0.46510592103004456  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5234973820356222
+model loss: 0.5025574713945389
+------------------------
+training epoch: 1
+architecture loss: 0.5200272511977416
+model loss: 0.5017418230955417
+------------------------
+training epoch: 2
+architecture loss: 0.5301472498820379
+model loss: 0.5012087111289685
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.10015712678432465 | 0.5499117374420166  valid 1  : ConvergeNormal  | 
+-- weight -0.10015712678432465 | 0.4500882029533386  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.5313665866851807 
+
+current depth 2  after 2
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.10015712678432465 | 0.5499117374420166  valid 1  : ConvergeNormal  | 
+-- weight -0.10015712678432465 | 0.4500882029533386  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.521443960758356
+model loss: 0.5009177762728471
+------------------------
+training epoch: 1
+architecture loss: 0.5185344712092326
+model loss: 0.5004883775344262
+------------------------
+training epoch: 2
+architecture loss: 0.5288200344030674
+model loss: 0.5001763323178658
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.12942039966583252 | 0.5643513202667236  valid 1  : ConvergeNormal  | 
+-- weight -0.1294204145669937 | 0.43564867973327637  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.5323641300201416 
+
+current depth 2  after 2
+
+search for top 2
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.12942039966583252 | 0.5643513202667236  valid 1  : ConvergeNormal  | 
+-- weight -0.1294204145669937 | 0.43564867973327637  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5204213284529172
+model loss: 0.500025565807636
+------------------------
+training epoch: 1
+architecture loss: 0.5177294978728662
+model loss: 0.4997131996429883
+------------------------
+training epoch: 2
+architecture loss: 0.5280291266166247
+model loss: 0.4994879857851909
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.15769223868846893 | 0.578199028968811  valid 1  : ConvergeNormal  | 
+-- weight -0.15769225358963013 | 0.42180097103118896  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.5682485103607178 
+
+current depth 2  after 4
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.15769223868846893 | 0.578199028968811  valid 1  : ConvergeNormal  | 
+-- weight -0.15769225358963013 | 0.42180097103118896  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.519783534682714
+model loss: 0.4993982177514296
+------------------------
+training epoch: 1
+architecture loss: 0.5172228721471933
+model loss: 0.4991491666206947
+------------------------
+training epoch: 2
+architecture loss: 0.5275099885005218
+model loss: 0.4989753652077455
+------------------------
+training epoch: 3
+architecture loss: 0.5142283600110275
+model loss: 0.498819411947177
+------------------------
+training epoch: 4
+architecture loss: 0.5305589299935561
+model loss: 0.4986786498473241
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.2007201910018921 | 0.5990337133407593  valid 1  : ConvergeNormal  | 
+-- weight -0.20072020590305328 | 0.4009663462638855  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.9302170276641846 
+
+current depth 4  after 4
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.2007201910018921 | 0.5990337133407593  valid 1  : ConvergeNormal  | 
+-- weight -0.20072020590305328 | 0.4009663462638855  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5191375406888815
+model loss: 0.49864633266742414
+------------------------
+training epoch: 1
+architecture loss: 0.5167127847671509
+model loss: 0.4984659185776344
+------------------------
+training epoch: 2
+architecture loss: 0.5269754173663946
+model loss: 0.4983479105509244
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.22511117160320282 | 0.6106920838356018  valid 1  : ConvergeNormal  | 
+-- weight -0.22511117160320282 | 0.3893078863620758  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.5353124141693115 
+
+current depth 4  after 4
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.22511117160320282 | 0.6106920838356018  valid 1  : ConvergeNormal  | 
+-- weight -0.22511117160320282 | 0.3893078863620758  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+number of architecture parameters 2
+number of model parameters 55
+ratio between arch/model parameter is: 0.03636363636363636
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5188900725199626
+model loss: 0.4983315399059883
+------------------------
+training epoch: 1
+architecture loss: 0.5165152756067423
+model loss: 0.4981774894090799
+------------------------
+training epoch: 2
+architecture loss: 0.5267650817449276
+model loss: 0.49808093905448914
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.24772970378398895 | 0.6213916540145874  valid 1  : ConvergeNormal  | 
+-- weight -0.24772970378398895 | 0.3786083161830902  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+---- prog 1  :  FullFeatureSelect
+
+
+
+time spend: 0.5317432880401611 
+
+current depth 4  after 4
+
+search for top astar
+current depth 0 with totally 2 children
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.24772970378398895 | 1.0  valid 1  : ConvergeNormal  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+learning rate: 0.0005
+------------------------
+training epoch: 0
+model loss: 0.4973547550348135
+validation metric: 0.5048555603840488
+------------------------
+training epoch: 1
+model loss: 0.4973547550348135
+validation metric: 0.5048555603840488
+------------------------
+training epoch: 2
+model loss: 0.4973547550348135
+validation metric: 0.5048555603840488
+------------------------
+training epoch: 3
+model loss: 0.4973547550348135
+validation metric: 0.5048555603840488
+------------------------
+training epoch: 4
+model loss: 0.4973547550348135
+validation metric: 0.5048555603840488
+finish train
+
+best epoch: 4
+cost: 2
+cost after combine: 0.5048555603840488
+
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.24772970378398895 | 1.0  valid 1  : FullFeatureSelect  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  FullFeatureSelect
+learning rate: 0.0005
+------------------------
+training epoch: 0
+model loss: 0.5303670139266894
+validation metric: 0.5246249443635144
+------------------------
+training epoch: 1
+model loss: 0.520624078810215
+validation metric: 0.5187856240556625
+------------------------
+training epoch: 2
+model loss: 0.5139015907278428
+validation metric: 0.5138412160531852
+------------------------
+training epoch: 3
+model loss: 0.5092894194217829
+validation metric: 0.5101444266417761
+------------------------
+training epoch: 4
+model loss: 0.5061843372308291
+validation metric: 0.5077049417098998
+finish train
+
+best epoch: 4
+cost: 2
+cost after combine: 0.5077049417098998
+
+current best 0.5048555603840488  vs. empty frontier
+total time for search 0.7535595893859863
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.24772970378398895 | 1.0  valid 1  : ConvergeNormal  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  ConvergeNormal
+
+
+
+after search 
+
+learning rate: 0.0005
+------------------------
+training epoch: 0
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 1
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 2
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 3
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 4
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+finish train
+
+best epoch: 4
+time spend: 0.5607621669769287 
+
+Best Program Found:
+Start(ConvergeNormal())
+Before finetune
+ALGORITHM END 
+
+
+Finetune
+learning rate: 0.00025
+------------------------
+training epoch: 0
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 1
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 2
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 3
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+------------------------
+training epoch: 4
+model loss: 0.49875450224587414
+validation metric: 0.5096497086997687
+finish train
+
+best epoch: 4
+finetune time spend: 0.5212996006011963 
+
+After finetune
+ALGORITHM END 
+
+
+
+
+Evaluating program Start(ConvergeNormal()) on TEST SET
+
+
+Evaluating program Start(ConvergeNormal()) on TEST SET

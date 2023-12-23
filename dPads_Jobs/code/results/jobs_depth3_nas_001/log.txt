@@ -1,0 +1,1702 @@
+Starting experiment jobs_depth3_nas_001
+
+current depth 0  after 2
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : MLP  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : MLP  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : MLP  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.0 | 0.3333333432674408  valid 1  : SimpleITE  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : MLP  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.6338453522095313
+model loss: 0.6456926831832299
+------------------------
+training epoch: 1
+architecture loss: 0.5305423300999862
+model loss: 0.547418800684122
+------------------------
+training epoch: 2
+architecture loss: 0.43655599309847903
+model loss: 0.4579002627959618
+------------------------
+training epoch: 3
+architecture loss: 0.3488837457620181
+model loss: 0.37721967926392186
+------------------------
+training epoch: 4
+architecture loss: 0.2798163856451328
+model loss: 0.30671302057229555
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.03299220651388168 | 0.3260897696018219  valid 1  : SimpleITE  | 
+-- weight 0.06304506212472916 | 0.3589596748352051  valid 1  : MLP  | 
+-- weight -0.06774920970201492 | 0.3149505853652954  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.02423129603266716 | 0.341642290353775  valid 1  : SimpleITE  | 
+-- weight 0.01993866264820099 | 0.34017884731292725  valid 1  : MLP  | 
+-- weight -0.04691922664642334 | 0.3181788921356201  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.06707502901554108 | 0.34823742508888245  valid 1  : SimpleITE  | 
+-- weight 0.06606253981590271 | 0.34788504242897034  valid 1  : MLP  | 
+-- weight -0.06918462365865707 | 0.3038775622844696  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.07238011062145233 | 0.34968018531799316  valid 1  : SimpleITE  | 
+-- weight 0.063043512403965 | 0.34643054008483887  valid 1  : MLP  | 
+-- weight -0.06797528266906738 | 0.30388933420181274  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+
+
+
+time spend: 34.615668535232544 
+
+current depth 2  after 2
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.06304506212472916 | 0.3589596748352051  valid 1  : MLP  | 
+-- weight -0.03299220651388168 | 0.3260897696018219  valid 1  : SimpleITE  | 
+-- weight -0.06774920970201492 | 0.3149505853652954  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.02423129603266716 | 0.341642290353775  valid 1  : SimpleITE  | 
+-- weight 0.01993866264820099 | 0.34017884731292725  valid 1  : MLP  | 
+-- weight -0.04691922664642334 | 0.3181788921356201  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.06707502901554108 | 0.34823742508888245  valid 1  : SimpleITE  | 
+-- weight 0.06606253981590271 | 0.34788504242897034  valid 1  : MLP  | 
+-- weight -0.06918462365865707 | 0.3038775622844696  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.07238011062145233 | 0.34968018531799316  valid 1  : SimpleITE  | 
+-- weight 0.063043512403965 | 0.34643054008483887  valid 1  : MLP  | 
+-- weight -0.06797528266906738 | 0.30388933420181274  valid 1  : Propensity  | 
+
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.23349458781572488
+model loss: 0.2612514461462314
+------------------------
+training epoch: 1
+architecture loss: 0.2116124675824092
+model loss: 0.2373952831213291
+------------------------
+training epoch: 2
+architecture loss: 0.190141417659246
+model loss: 0.21696595045236441
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.08110024034976959 | 0.3629709780216217  valid 1  : MLP  | 
+-- weight -0.01408282108604908 | 0.3300155997276306  valid 1  : SimpleITE  | 
+-- weight -0.08633113652467728 | 0.30701345205307007  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.04357174038887024 | 0.34801211953163147  valid 1  : SimpleITE  | 
+-- weight 0.02039767988026142 | 0.340039998292923  valid 1  : MLP  | 
+-- weight -0.06582943350076675 | 0.31194788217544556  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.08594521880149841 | 0.3523867726325989  valid 1  : SimpleITE  | 
+-- weight 0.08329561352729797 | 0.35145431756973267  valid 1  : MLP  | 
+-- weight -0.087888203561306 | 0.2961588501930237  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.09135821461677551 | 0.3537716865539551  valid 1  : SimpleITE  | 
+-- weight 0.08121415972709656 | 0.3502011299133301  valid 1  : MLP  | 
+-- weight -0.08684238791465759 | 0.29602715373039246  valid 1  : Propensity  | 
+
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+
+
+
+time spend: 3.08054256439209 
+
+current depth 2  after 2
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.08110024034976959 | 0.3629709780216217  valid 1  : MLP  | 
+-- weight -0.01408282108604908 | 0.3300155997276306  valid 1  : SimpleITE  | 
+-- weight -0.08633113652467728 | 0.30701345205307007  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.04357174038887024 | 0.34801211953163147  valid 1  : SimpleITE  | 
+-- weight 0.02039767988026142 | 0.340039998292923  valid 1  : MLP  | 
+-- weight -0.06582943350076675 | 0.31194788217544556  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.08594521880149841 | 0.3523867726325989  valid 1  : SimpleITE  | 
+-- weight 0.08329561352729797 | 0.35145431756973267  valid 1  : MLP  | 
+-- weight -0.087888203561306 | 0.2961588501930237  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.09135821461677551 | 0.3537716865539551  valid 1  : SimpleITE  | 
+-- weight 0.08121415972709656 | 0.3502011299133301  valid 1  : MLP  | 
+-- weight -0.08684238791465759 | 0.29602715373039246  valid 1  : Propensity  | 
+
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.17388455340495476
+model loss: 0.20000723806711343
+------------------------
+training epoch: 1
+architecture loss: 0.16424833123500532
+model loss: 0.1869099633051799
+------------------------
+training epoch: 2
+architecture loss: 0.1547228848704925
+model loss: 0.17780794317905718
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0961746796965599 | 0.3660776615142822  valid 1  : MLP  | 
+-- weight 0.004325003828853369 | 0.33395153284072876  valid 1  : SimpleITE  | 
+-- weight -0.10298584401607513 | 0.29997074604034424  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06170739606022835 | 0.35585206747055054  valid 1  : SimpleITE  | 
+-- weight 0.003731303382664919 | 0.33580780029296875  valid 1  : MLP  | 
+-- weight -0.08160403370857239 | 0.3083401918411255  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.10380645096302032 | 0.3568553924560547  valid 1  : SimpleITE  | 
+-- weight 0.0946521982550621 | 0.3536035418510437  valid 1  : MLP  | 
+-- weight -0.10522722452878952 | 0.28954100608825684  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.10861393064260483 | 0.3574211001396179  valid 1  : SimpleITE  | 
+-- weight 0.09804118424654007 | 0.35366207361221313  valid 1  : MLP  | 
+-- weight -0.10416174679994583 | 0.28891685605049133  valid 1  : Propensity  | 
+
+---- prog 2  :  Propensity
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+---- prog 2  :  Propensity
+
+
+
+time spend: 3.0863804817199707 
+
+current depth 2  after 2
+
+search for top 2
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0961746796965599 | 0.522946298122406  valid 1  : MLP  | 
+-- weight 0.004325003828853369 | 0.477053701877594  valid 1  : SimpleITE  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06170739606022835 | 0.514490008354187  valid 1  : SimpleITE  | 
+-- weight 0.003731303382664919 | 0.48551005125045776  valid 1  : MLP  | 
+
+---- subm function1
+-- weight 0.10380645096302032 | 0.5022885203361511  valid 1  : SimpleITE  | 
+-- weight 0.0946521982550621 | 0.4977114498615265  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.10861393064260483 | 0.5026431679725647  valid 1  : SimpleITE  | 
+-- weight 0.09804118424654007 | 0.4973568618297577  valid 1  : MLP  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+------------------------
+training epoch: 0
+architecture loss: 0.4413522413143745
+model loss: 0.43047555593343884
+------------------------
+training epoch: 1
+architecture loss: 0.35975464949241054
+model loss: 0.3512389166997029
+------------------------
+training epoch: 2
+architecture loss: 0.286902306171564
+model loss: 0.2874506746347134
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0774504542350769 | 0.5135969519615173  valid 1  : MLP  | 
+-- weight 0.02304925210773945 | 0.48640304803848267  valid 1  : SimpleITE  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.046738266944885254 | 0.5070090293884277  valid 1  : SimpleITE  | 
+-- weight 0.01870044507086277 | 0.49299100041389465  valid 1  : MLP  | 
+
+---- subm function1
+-- weight 0.08602343499660492 | 0.49339744448661804  valid 1  : SimpleITE  | 
+-- weight 0.11243521422147751 | 0.5066025853157043  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.09129711985588074 | 0.49398505687713623  valid 1  : SimpleITE  | 
+-- weight 0.11535799503326416 | 0.5060149431228638  valid 1  : MLP  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- NN AtomToAtomModule
+---- subm function1
+-- NN AtomToAtomModule
+---- subm function2
+-- NN AtomToAtomModule
+---- prog 1  :  MLP
+
+
+
+time spend: 2.130887031555176 
+
+current depth 2  after 4
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0774504542350769 | 0.5135969519615173  valid 1  : MLP  | 
+-- weight 0.02304925210773945 | 0.48640304803848267  valid 1  : SimpleITE  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.046738266944885254 | 0.5070090293884277  valid 1  : SimpleITE  | 
+-- weight 0.01870044507086277 | 0.49299100041389465  valid 1  : MLP  | 
+
+---- subm function1
+-- weight 0.08602343499660492 | 0.49339744448661804  valid 1  : SimpleITE  | 
+-- weight 0.11243521422147751 | 0.5066025853157043  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.09129711985588074 | 0.49398505687713623  valid 1  : SimpleITE  | 
+-- weight 0.11535799503326416 | 0.5060149431228638  valid 1  : MLP  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.0 | 0.5  valid 1  : MLP  | 
+-- weight 0.0 | 0.5  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.16508196752804977
+model loss: 0.19073651157892668
+------------------------
+training epoch: 1
+architecture loss: 0.16314186270420367
+model loss: 0.18346723799522108
+------------------------
+training epoch: 2
+architecture loss: 0.1572579678434592
+model loss: 0.177822090112246
+------------------------
+training epoch: 3
+architecture loss: 0.14914462371514395
+model loss: 0.1733712531053103
+------------------------
+training epoch: 4
+architecture loss: 0.15185279914965996
+model loss: 0.16971305127327257
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.048394959419965744 | 0.49907252192497253  valid 1  : MLP  | 
+-- weight 0.05210473760962486 | 0.5009274482727051  valid 1  : SimpleITE  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.024605466052889824 | 0.4959431290626526  valid 1  : SimpleITE  | 
+-- weight 0.040833234786987305 | 0.5040568709373474  valid 1  : MLP  | 
+
+---- subm function1
+-- weight 0.09095009416341782 | 0.4958604574203491  valid 1  : SimpleITE  | 
+-- weight 0.10750856250524521 | 0.5041395425796509  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.0839519128203392 | 0.49031341075897217  valid 1  : SimpleITE  | 
+-- weight 0.1227032020688057 | 0.5096865892410278  valid 1  : MLP  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.02401459962129593 | 0.5120049715042114  valid 1  : MLP  | 
+-- weight -0.02401459962129593 | 0.4879950284957886  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight -0.014852610416710377 | 0.4925742447376251  valid 1  : MLP  | 
+-- weight 0.014852611348032951 | 0.5074257850646973  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight -0.008628285489976406 | 0.49568596482276917  valid 1  : MLP  | 
+-- weight 0.008628284558653831 | 0.5043140649795532  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.029748739674687386 | 0.5148699879646301  valid 1  : MLP  | 
+-- weight -0.029748739674687386 | 0.48513004183769226  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.02697776071727276 | 0.5134856104850769  valid 1  : MLP  | 
+-- weight -0.02697775885462761 | 0.4865143895149231  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight -0.018349716439843178 | 0.49082618951797485  valid 1  : MLP  | 
+-- weight 0.01834971457719803 | 0.5091738104820251  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.012614046223461628 | 0.5063067078590393  valid 1  : MLP  | 
+-- weight -0.012614047154784203 | 0.4936933219432831  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight -0.023965636268258095 | 0.4880194664001465  valid 1  : MLP  | 
+-- weight 0.023965638130903244 | 0.5119804739952087  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.020828908309340477 | 0.5104129314422607  valid 1  : MLP  | 
+-- weight -0.020828908309340477 | 0.48958703875541687  valid 1  : Propensity  | 
+
+---- prog 1  :  MLP
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+
+
+
+time spend: 7.356004953384399 
+
+current depth 4  after 4
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.05210473760962486 | 0.5009274482727051  valid 1  : SimpleITE  | 
+-- weight 0.048394959419965744 | 0.49907252192497253  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.040833234786987305 | 0.5040568709373474  valid 1  : MLP  | 
+-- weight 0.024605466052889824 | 0.4959431290626526  valid 1  : SimpleITE  | 
+
+---- subm function1
+-- weight 0.10750856250524521 | 0.5041395425796509  valid 1  : MLP  | 
+-- weight 0.09095009416341782 | 0.4958604574203491  valid 1  : SimpleITE  | 
+
+---- subm function2
+-- weight 0.1227032020688057 | 0.5096865892410278  valid 1  : MLP  | 
+-- weight 0.0839519128203392 | 0.49031341075897217  valid 1  : SimpleITE  | 
+
+---- prog 1  :  MLP
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.02401459962129593 | 0.5120049715042114  valid 1  : MLP  | 
+-- weight -0.02401459962129593 | 0.4879950284957886  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.014852611348032951 | 0.5074257850646973  valid 1  : Propensity  | 
+-- weight -0.014852610416710377 | 0.4925742447376251  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.008628284558653831 | 0.5043140649795532  valid 1  : Propensity  | 
+-- weight -0.008628285489976406 | 0.49568596482276917  valid 1  : MLP  | 
+
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.029748739674687386 | 0.5148699879646301  valid 1  : MLP  | 
+-- weight -0.029748739674687386 | 0.48513004183769226  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.02697776071727276 | 0.5134856104850769  valid 1  : MLP  | 
+-- weight -0.02697775885462761 | 0.4865143895149231  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.01834971457719803 | 0.5091738104820251  valid 1  : Propensity  | 
+-- weight -0.018349716439843178 | 0.49082618951797485  valid 1  : MLP  | 
+
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.012614046223461628 | 0.5063067078590393  valid 1  : MLP  | 
+-- weight -0.012614047154784203 | 0.4936933219432831  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.023965638130903244 | 0.5119804739952087  valid 1  : Propensity  | 
+-- weight -0.023965636268258095 | 0.4880194664001465  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.020828908309340477 | 0.5104129314422607  valid 1  : MLP  | 
+-- weight -0.020828908309340477 | 0.48958703875541687  valid 1  : Propensity  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.14936527151327866
+model loss: 0.1664470502963433
+------------------------
+training epoch: 1
+architecture loss: 0.14959613176492545
+model loss: 0.16335127445367667
+------------------------
+training epoch: 2
+architecture loss: 0.14532063729487932
+model loss: 0.16071748733520508
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.06746774166822433 | 0.5086081027984619  valid 1  : SimpleITE  | 
+-- weight 0.03303194418549538 | 0.4913918972015381  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.050341252237558365 | 0.5088100433349609  valid 1  : MLP  | 
+-- weight 0.015097452327609062 | 0.49118995666503906  valid 1  : SimpleITE  | 
+
+---- subm function1
+-- weight 0.10198931396007538 | 0.5013800263404846  valid 1  : MLP  | 
+-- weight 0.09646934270858765 | 0.49862003326416016  valid 1  : SimpleITE  | 
+
+---- subm function2
+-- weight 0.116975799202919 | 0.506823718547821  valid 1  : MLP  | 
+-- weight 0.08967931568622589 | 0.49317628145217896  valid 1  : SimpleITE  | 
+
+---- prog 1  :  MLP
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.031012170016765594 | 0.515501081943512  valid 1  : MLP  | 
+-- weight -0.031012168154120445 | 0.48449888825416565  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight -0.0026231626980006695 | 0.4986884295940399  valid 1  : Propensity  | 
+-- weight 0.0026231640949845314 | 0.5013116002082825  valid 1  : MLP  | 
+
+---- subm function2
+-- weight -0.009972453117370605 | 0.49501392245292664  valid 1  : Propensity  | 
+-- weight 0.009972453117370605 | 0.504986047744751  valid 1  : MLP  | 
+
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.04924697056412697 | 0.5246036052703857  valid 1  : MLP  | 
+-- weight -0.04924697056412697 | 0.47539642453193665  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.04610355943441391 | 0.52303546667099  valid 1  : MLP  | 
+-- weight -0.04610355943441391 | 0.47696453332901  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.018420999869704247 | 0.5092094540596008  valid 1  : Propensity  | 
+-- weight -0.018421001732349396 | 0.49079054594039917  valid 1  : MLP  | 
+
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.031893834471702576 | 0.5159415006637573  valid 1  : MLP  | 
+-- weight -0.031893834471702576 | 0.4840584695339203  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.03835053741931915 | 0.5191658735275269  valid 1  : Propensity  | 
+-- weight -0.03835053741931915 | 0.48083412647247314  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.02955145388841629 | 0.5147714018821716  valid 1  : MLP  | 
+-- weight -0.02955145202577114 | 0.485228568315506  valid 1  : Propensity  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+
+
+
+time spend: 4.451695919036865 
+
+current depth 4  after 4
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.06746774166822433 | 0.5086081027984619  valid 1  : SimpleITE  | 
+-- weight 0.03303194418549538 | 0.4913918972015381  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.050341252237558365 | 0.5088100433349609  valid 1  : MLP  | 
+-- weight 0.015097452327609062 | 0.49118995666503906  valid 1  : SimpleITE  | 
+
+---- subm function1
+-- weight 0.10198931396007538 | 0.5013800263404846  valid 1  : MLP  | 
+-- weight 0.09646934270858765 | 0.49862003326416016  valid 1  : SimpleITE  | 
+
+---- subm function2
+-- weight 0.116975799202919 | 0.506823718547821  valid 1  : MLP  | 
+-- weight 0.08967931568622589 | 0.49317628145217896  valid 1  : SimpleITE  | 
+
+---- prog 1  :  MLP
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.031012170016765594 | 0.515501081943512  valid 1  : MLP  | 
+-- weight -0.031012168154120445 | 0.48449888825416565  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0026231640949845314 | 0.5013116002082825  valid 1  : MLP  | 
+-- weight -0.0026231626980006695 | 0.4986884295940399  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.009972453117370605 | 0.504986047744751  valid 1  : MLP  | 
+-- weight -0.009972453117370605 | 0.49501392245292664  valid 1  : Propensity  | 
+
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.04924697056412697 | 0.5246036052703857  valid 1  : MLP  | 
+-- weight -0.04924697056412697 | 0.47539642453193665  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.04610355943441391 | 0.52303546667099  valid 1  : MLP  | 
+-- weight -0.04610355943441391 | 0.47696453332901  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.018420999869704247 | 0.5092094540596008  valid 1  : Propensity  | 
+-- weight -0.018421001732349396 | 0.49079054594039917  valid 1  : MLP  | 
+
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.031893834471702576 | 0.5159415006637573  valid 1  : MLP  | 
+-- weight -0.031893834471702576 | 0.4840584695339203  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.03835053741931915 | 0.5191658735275269  valid 1  : Propensity  | 
+-- weight -0.03835053741931915 | 0.48083412647247314  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.02955145388841629 | 0.5147714018821716  valid 1  : MLP  | 
+-- weight -0.02955145202577114 | 0.485228568315506  valid 1  : Propensity  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.1432515113399579
+model loss: 0.15833726410682386
+------------------------
+training epoch: 1
+architecture loss: 0.1438884098942463
+model loss: 0.15602704939933923
+------------------------
+training epoch: 2
+architecture loss: 0.14011686409895235
+model loss: 0.15403274618662322
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.08029811084270477 | 0.5150195956230164  valid 1  : SimpleITE  | 
+-- weight 0.020201589912176132 | 0.48498040437698364  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06175524741411209 | 0.5145138502120972  valid 1  : MLP  | 
+-- weight 0.0036834566853940487 | 0.48548611998558044  valid 1  : SimpleITE  | 
+
+---- subm function1
+-- weight 0.09598308056592941 | 0.49837687611579895  valid 1  : MLP  | 
+-- weight 0.10247557610273361 | 0.5016231536865234  valid 1  : SimpleITE  | 
+
+---- subm function2
+-- weight 0.11133816093206406 | 0.5040051937103271  valid 1  : MLP  | 
+-- weight 0.09531695395708084 | 0.49599477648735046  valid 1  : SimpleITE  | 
+
+---- prog 1  :  MLP
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.03180839866399765 | 0.5158988237380981  valid 1  : MLP  | 
+-- weight -0.03180839866399765 | 0.48410114645957947  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0210078414529562 | 0.5105023980140686  valid 1  : MLP  | 
+-- weight -0.021007835865020752 | 0.4894976317882538  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.028470441699028015 | 0.5142313838005066  valid 1  : MLP  | 
+-- weight -0.028470441699028015 | 0.4857686161994934  valid 1  : Propensity  | 
+
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06848756223917007 | 0.5341903567314148  valid 1  : MLP  | 
+-- weight -0.06848756223917007 | 0.4658096730709076  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.064957395195961 | 0.5324330925941467  valid 1  : MLP  | 
+-- weight -0.064957395195961 | 0.46756693720817566  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.014157557860016823 | 0.5070783495903015  valid 1  : Propensity  | 
+-- weight -0.014157559722661972 | 0.49292171001434326  valid 1  : MLP  | 
+
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.05112023279070854 | 0.5255378484725952  valid 1  : MLP  | 
+-- weight -0.05112023279070854 | 0.4744621217250824  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.046075236052274704 | 0.5230212807655334  valid 1  : Propensity  | 
+-- weight -0.046075236052274704 | 0.4769786596298218  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.03683055564761162 | 0.5184069871902466  valid 1  : MLP  | 
+-- weight -0.03683055564761162 | 0.4815930426120758  valid 1  : Propensity  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+
+
+
+time spend: 4.455989599227905 
+
+current depth 4  after 4
+
+search for top astar
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.08029811084270477 | 1.0  valid 1  : SimpleITE  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06175524741411209 | 0.5145138502120972  valid 1  : MLP  | 
+-- weight 0.0036834566853940487 | 0.48548611998558044  valid 1  : SimpleITE  | 
+
+---- subm function1
+-- weight 0.09598308056592941 | 0.49837687611579895  valid 1  : MLP  | 
+-- weight 0.10247557610273361 | 0.5016231536865234  valid 1  : SimpleITE  | 
+
+---- subm function2
+-- weight 0.11133816093206406 | 0.5040051937103271  valid 1  : MLP  | 
+-- weight 0.09531695395708084 | 0.49599477648735046  valid 1  : SimpleITE  | 
+
+
+---------- depth 2 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.03180839866399765 | 0.5158988237380981  valid 1  : MLP  | 
+-- weight -0.03180839866399765 | 0.48410114645957947  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.0210078414529562 | 0.5105023980140686  valid 1  : MLP  | 
+-- weight -0.021007835865020752 | 0.4894976317882538  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.028470441699028015 | 0.5142313838005066  valid 1  : MLP  | 
+-- weight -0.028470441699028015 | 0.4857686161994934  valid 1  : Propensity  | 
+
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.06848756223917007 | 0.5341903567314148  valid 1  : MLP  | 
+-- weight -0.06848756223917007 | 0.4658096730709076  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.064957395195961 | 0.5324330925941467  valid 1  : MLP  | 
+-- weight -0.064957395195961 | 0.46756693720817566  valid 1  : Propensity  | 
+
+---- subm function2
+-- weight 0.014157557860016823 | 0.5070783495903015  valid 1  : Propensity  | 
+-- weight -0.014157559722661972 | 0.49292171001434326  valid 1  : MLP  | 
+
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 2
+---- prog 0  :  MLP
+---- prog 1  :  SimpleITE
+---- subm evalfunction
+-- weight 0.05112023279070854 | 0.5255378484725952  valid 1  : MLP  | 
+-- weight -0.05112023279070854 | 0.4744621217250824  valid 1  : Propensity  | 
+
+---- subm function1
+-- weight 0.046075236052274704 | 0.5230212807655334  valid 1  : Propensity  | 
+-- weight -0.046075236052274704 | 0.4769786596298218  valid 1  : MLP  | 
+
+---- subm function2
+-- weight 0.03683055564761162 | 0.5184069871902466  valid 1  : MLP  | 
+-- weight -0.03683055564761162 | 0.4815930426120758  valid 1  : Propensity  | 
+
+
+---------- depth 3 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 1
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 2
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 3
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 4
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 5
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 6
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+-------- Node 7
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  Propensity
+---- prog 1  :  MLP
+-------- Node 8
+------ type sign contain ('atom', 'atom', 18, 1)    debug 3
+---- prog 0  :  MLP
+---- prog 1  :  Propensity
+------------------------
+training epoch: 0
+architecture loss: 0.5075890696965731
+model loss: 0.5109420395814456
+------------------------
+training epoch: 1
+architecture loss: 0.44215829785053545
+model loss: 0.45135289201369655
+------------------------
+training epoch: 2
+architecture loss: 0.3882569854076092
+model loss: 0.3972643338716947
+------------------------
+training epoch: 3
+architecture loss: 0.33628557507808393
+model loss: 0.3486493367415208
+------------------------
+training epoch: 4
+architecture loss: 0.29340101663882917
+model loss: 0.3055022335969485
+------------------------
+training epoch: 5
+architecture loss: 0.25330012005109054
+model loss: 0.26779703910534197
+------------------------
+training epoch: 6
+architecture loss: 0.22038989456800315
+model loss: 0.23547246020573837
+------------------------
+training epoch: 7
+architecture loss: 0.18901672386206114
+model loss: 0.20843553772339454
+------------------------
+training epoch: 8
+architecture loss: 0.1710773935684791
+model loss: 0.186595713863006
+------------------------
+training epoch: 9
+architecture loss: 0.15535796204438576
+model loss: 0.169909540277261
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.020201589912176132 | 1.0  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+learning rate: 0.03
+------------------------
+training epoch: 0
+model loss: 0.17249453927461916
+validation metric: 0.15184616781929744
+------------------------
+training epoch: 1
+model loss: 0.14905337473520866
+validation metric: 0.14639926428996117
+------------------------
+training epoch: 2
+model loss: 0.13938956306530878
+validation metric: 0.141299297422938
+------------------------
+training epoch: 3
+model loss: 0.13496870547533035
+validation metric: 0.1371241607461082
+------------------------
+training epoch: 4
+model loss: 0.13357624526207262
+validation metric: 0.13483743213836352
+------------------------
+training epoch: 5
+model loss: 0.13303041458129883
+validation metric: 0.13265808076780528
+------------------------
+training epoch: 6
+model loss: 0.13264661339613107
+validation metric: 0.13144700050041144
+------------------------
+training epoch: 7
+model loss: 0.132634009879369
+validation metric: 0.13070873278444317
+------------------------
+training epoch: 8
+model loss: 0.13254215969489172
+validation metric: 0.12980886533213548
+------------------------
+training epoch: 9
+model loss: 0.1325740137925515
+validation metric: 0.12899698026702064
+finish train
+
+best epoch: 9
+current best 0.12899698026702064  vs. frontier best 0.15587800402494284
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.020201589912176132 | 1.0  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 18, 1)    debug 1
+---- prog 0  :  MLP
+
+
+
+after search 
+
+learning rate: 0.03
+------------------------
+training epoch: 0
+model loss: 0.1487217168597614
+validation metric: 0.17296242215625968
+------------------------
+training epoch: 1
+model loss: 0.13550115946461172
+validation metric: 0.16790372910016618
+------------------------
+training epoch: 2
+model loss: 0.13174359894850673
+validation metric: 0.16625515953331893
+------------------------
+training epoch: 3
+model loss: 0.13143507259733536
+validation metric: 0.16385261438951584
+------------------------
+training epoch: 4
+model loss: 0.1313419710187351
+validation metric: 0.16032269008536978
+------------------------
+training epoch: 5
+model loss: 0.13117268681526184
+validation metric: 0.15600401840351005
+------------------------
+training epoch: 6
+model loss: 0.13128163753186955
+validation metric: 0.15263325246067794
+------------------------
+training epoch: 7
+model loss: 0.13135984233197043
+validation metric: 0.14909775212317228
+------------------------
+training epoch: 8
+model loss: 0.13140937905101216
+validation metric: 0.14590228004696287
+------------------------
+training epoch: 9
+model loss: 0.13145841658115387
+validation metric: 0.14300828013624173
+finish train
+
+best epoch: 9
+time spend: 1.0671241283416748 
+
+Best Program Found:
+learning rate: 0.03
+------------------------
+training epoch: 0
+model loss: 0.1439455887850593
+validation metric: 0.12959505777062788
+------------------------
+training epoch: 1
+model loss: 0.1322650992695023
+validation metric: 0.14072779885685302
+------------------------
+training epoch: 2
+model loss: 0.13102008490001454
+validation metric: 0.13533638741869028
+------------------------
+training epoch: 3
+model loss: 0.13054552542812684
+validation metric: 0.1343735553663167
+------------------------
+training epoch: 4
+model loss: 0.13089628999724107
+validation metric: 0.1329450264713544
+------------------------
+training epoch: 5
+model loss: 0.13095925178597956
+validation metric: 0.1315162007797902
+------------------------
+training epoch: 6
+model loss: 0.13113423086264553
+validation metric: 0.1300722172456123
+------------------------
+training epoch: 7
+model loss: 0.13119685343083212
+validation metric: 0.12887966387557712
+------------------------
+training epoch: 8
+model loss: 0.13121581910287633
+validation metric: 0.12791962082280744
+------------------------
+training epoch: 9
+model loss: 0.13122323067749248
+validation metric: 0.12709664886348537
+finish train
+
+best epoch: 9
+
+
+Evaluating program Start(MLP()) on TEST SET
+
+
+Evaluating program Start(MLP()) on TEST SET

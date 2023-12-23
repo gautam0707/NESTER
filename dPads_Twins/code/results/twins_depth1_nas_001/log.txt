@@ -1,0 +1,3709 @@
+Starting experiment twins_depth1_nas_001
+
+with loss function: mseloss
+current depth 0  after 2
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0 | 0.3333333432674408  valid 1  : MLP  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Align  | 
+-- weight 0.0 | 0.3333333432674408  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+number of architecture parameters 3
+number of model parameters 111
+ratio between arch/model parameter is: 0.02702702702702703
+learning rate: 0.001 | 0.001
+------------------------
+training epoch: 0
+architecture loss: 0.6293509311002233
+model loss: 0.6298025652118351
+------------------------
+training epoch: 1
+architecture loss: 0.5688176997329878
+model loss: 0.5656564410613931
+------------------------
+training epoch: 2
+architecture loss: 0.5656798021948856
+model loss: 0.5632949477952459
+------------------------
+training epoch: 3
+architecture loss: 0.5615028395600941
+model loss: 0.5622981268426647
+------------------------
+training epoch: 4
+architecture loss: 0.560278942403586
+model loss: 0.5615790551123412
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.03517383337020874 | 0.34909000992774963  valid 1  : MLP  | 
+-- weight -0.03323221951723099 | 0.3260086178779602  valid 1  : Align  | 
+-- weight -0.03663427382707596 | 0.32490137219429016  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+
+
+
+time spend: 8.209022760391235 
+
+current depth 2  after 2
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.03517383337020874 | 0.34909000992774963  valid 1  : MLP  | 
+-- weight -0.03323221951723099 | 0.3260086178779602  valid 1  : Align  | 
+-- weight -0.03663427382707596 | 0.32490137219429016  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+number of architecture parameters 3
+number of model parameters 111
+ratio between arch/model parameter is: 0.02702702702702703
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5596951719211496
+model loss: 0.5611506000809048
+------------------------
+training epoch: 1
+architecture loss: 0.5630956324546234
+model loss: 0.5607893564130949
+------------------------
+training epoch: 2
+architecture loss: 0.5627920212952987
+model loss: 0.5605486313933912
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.02816363051533699 | 0.34589600563049316  valid 1  : MLP  | 
+-- weight -0.02533596195280552 | 0.327877014875412  valid 1  : Align  | 
+-- weight -0.030381150543689728 | 0.32622700929641724  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+
+
+
+time spend: 4.478146314620972 
+
+current depth 2  after 2
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.02816363051533699 | 0.34589600563049316  valid 1  : MLP  | 
+-- weight -0.02533596195280552 | 0.327877014875412  valid 1  : Align  | 
+-- weight -0.030381150543689728 | 0.32622700929641724  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+number of architecture parameters 3
+number of model parameters 111
+ratio between arch/model parameter is: 0.02702702702702703
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5589237200177234
+model loss: 0.5604339241981506
+------------------------
+training epoch: 1
+architecture loss: 0.5624323448409205
+model loss: 0.5601873967958533
+------------------------
+training epoch: 2
+architecture loss: 0.5622309446334839
+model loss: 0.5600363715835239
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.023770155385136604 | 0.34389954805374146  valid 1  : MLP  | 
+-- weight -0.02029002644121647 | 0.32907623052597046  valid 1  : Align  | 
+-- weight -0.026544932276010513 | 0.32702428102493286  valid 1  : Propensity  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+---- prog 2  :  Propensity
+
+
+
+time spend: 4.576281547546387 
+
+current depth 2  after 2
+
+search for top 2
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.023770155385136604 | 0.5110132694244385  valid 1  : MLP  | 
+-- weight -0.02029002644121647 | 0.4889867603778839  valid 1  : Align  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+number of architecture parameters 2
+number of model parameters 67
+ratio between arch/model parameter is: 0.029850746268656716
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.6025648466918779
+model loss: 0.60479752589827
+------------------------
+training epoch: 1
+architecture loss: 0.5682537458513094
+model loss: 0.5662485186172568
+------------------------
+training epoch: 2
+architecture loss: 0.5655572757772778
+model loss: 0.5631641700215961
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.00604447303339839 | 0.496107816696167  valid 1  : MLP  | 
+-- weight 0.009524602442979813 | 0.503892183303833  valid 1  : Align  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+
+
+
+time spend: 3.647167921066284 
+
+current depth 2  after 4
+
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.00604447303339839 | 0.496107816696167  valid 1  : MLP  | 
+-- weight 0.009524602442979813 | 0.503892183303833  valid 1  : Align  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+number of architecture parameters 2
+number of model parameters 67
+ratio between arch/model parameter is: 0.029850746268656716
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5603957273389982
+model loss: 0.5618737074344055
+------------------------
+training epoch: 1
+architecture loss: 0.5630649580903675
+model loss: 0.5607995870320693
+------------------------
+training epoch: 2
+architecture loss: 0.5624248262332834
+model loss: 0.5602481812238693
+------------------------
+training epoch: 3
+architecture loss: 0.5589851212242375
+model loss: 0.5599489510059357
+------------------------
+training epoch: 4
+architecture loss: 0.5583156515722689
+model loss: 0.5597578105719193
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.03152726963162422 | 0.48337244987487793  valid 1  : MLP  | 
+-- weight 0.03500739857554436 | 0.5166274905204773  valid 1  : Align  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+---- prog 1  :  Align
+
+
+
+time spend: 6.117536544799805 
+
+current depth 4  after 4
+
+search for top 4
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.03500739857554436 | 0.5166274905204773  valid 1  : Align  | 
+-- weight -0.03152726963162422 | 0.48337244987487793  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  Align
+---- prog 1  :  MLP
+number of architecture parameters 2
+number of model parameters 67
+ratio between arch/model parameter is: 0.029850746268656716
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5580782909756121
+model loss: 0.5597130798775217
+------------------------
+training epoch: 1
+architecture loss: 0.5616168833297231
+model loss: 0.5595155779434287
+------------------------
+training epoch: 2
+architecture loss: 0.5614597363316495
+model loss: 0.5594010333652082
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0413750596344471 | 0.5198071599006653  valid 1  : Align  | 
+-- weight -0.03789493069052696 | 0.4801928699016571  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  Align
+---- prog 1  :  MLP
+
+
+
+time spend: 3.8568456172943115 
+
+current depth 4  after 4
+
+search for top 3
+> training...
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.0413750596344471 | 0.5198071599006653  valid 1  : Align  | 
+-- weight -0.03789493069052696 | 0.4801928699016571  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  Align
+---- prog 1  :  MLP
+number of architecture parameters 2
+number of model parameters 67
+ratio between arch/model parameter is: 0.029850746268656716
+learning rate: 0.0005 | 0.0005
+------------------------
+training epoch: 0
+architecture loss: 0.5577332746723423
+model loss: 0.5594088312076486
+------------------------
+training epoch: 1
+architecture loss: 0.5613123016512912
+model loss: 0.5592467402634413
+------------------------
+training epoch: 2
+architecture loss: 0.5611989698980165
+model loss: 0.5591648946637693
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.04637766256928444 | 0.5223039984703064  valid 1  : Align  | 
+-- weight -0.042897533625364304 | 0.4776960015296936  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  Align
+---- prog 1  :  MLP
+
+
+
+time spend: 3.7593181133270264 
+
+current depth 4  after 4
+
+search for top astar
+current depth 0 with totally 2 children
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight 0.04637766256928444 | 1.0  valid 1  : Align  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  Align
+------------------------
+training epoch: 0
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 1
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 2
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 3
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 4
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 5
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 6
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 7
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 8
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 9
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 10
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 11
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 12
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 13
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 14
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 15
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 16
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 17
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 18
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 19
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 20
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 21
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 22
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 23
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 24
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 25
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 26
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 27
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 28
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 29
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 30
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 31
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 32
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 33
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 34
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 35
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 36
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 37
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 38
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 39
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 40
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 41
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 42
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 43
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 44
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 45
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 46
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 47
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 48
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 49
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 50
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 51
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 52
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 53
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 54
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 55
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 56
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 57
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 58
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 59
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 60
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 61
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 62
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 63
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 64
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 65
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 66
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 67
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 68
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 69
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 70
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 71
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 72
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 73
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 74
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 75
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 76
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 77
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 78
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 79
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 80
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 81
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 82
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 83
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 84
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 85
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 86
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 87
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 88
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 89
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 90
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 91
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 92
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 93
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 94
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 95
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 96
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 97
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 98
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 99
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 100
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 101
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 102
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 103
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 104
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 105
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 106
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 107
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 108
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 109
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 110
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 111
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 112
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 113
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 114
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 115
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 116
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 117
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 118
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 119
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 120
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 121
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 122
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 123
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 124
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 125
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 126
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 127
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 128
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 129
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 130
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 131
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 132
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 133
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 134
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 135
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 136
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 137
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 138
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 139
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 140
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 141
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 142
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 143
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 144
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 145
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 146
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 147
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 148
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 149
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 150
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 151
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 152
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 153
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 154
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 155
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 156
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 157
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 158
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 159
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 160
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 161
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 162
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 163
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 164
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 165
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 166
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 167
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 168
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 169
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 170
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 171
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 172
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 173
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 174
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 175
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 176
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 177
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 178
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 179
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 180
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 181
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 182
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 183
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 184
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 185
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 186
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 187
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 188
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 189
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 190
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 191
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 192
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 193
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 194
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 195
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 196
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 197
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 198
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+------------------------
+training epoch: 199
+model loss: 0.8227878238843835
+validation metric: 0.8156308548478093
+finish train
+
+best epoch: 199
+cost: 2
+cost after combine: 0.8156308548478093
+
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.042897533625364304 | 1.0  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+------------------------
+training epoch: 0
+model loss: 0.5689519345760345
+validation metric: 0.5678617530707859
+------------------------
+training epoch: 1
+model loss: 0.5677424274061037
+validation metric: 0.5667713466849822
+------------------------
+training epoch: 2
+model loss: 0.5666656118372212
+validation metric: 0.5658098243253983
+------------------------
+training epoch: 3
+model loss: 0.5657203871270885
+validation metric: 0.5649687711230924
+------------------------
+training epoch: 4
+model loss: 0.5648969521988993
+validation metric: 0.5642368299331244
+------------------------
+training epoch: 5
+model loss: 0.5641837301461593
+validation metric: 0.5636022773882126
+------------------------
+training epoch: 6
+model loss: 0.5635689911635026
+validation metric: 0.5630538003747027
+------------------------
+training epoch: 7
+model loss: 0.5630414758039557
+validation metric: 0.562580684287245
+------------------------
+training epoch: 8
+model loss: 0.5625905776801317
+validation metric: 0.5621730084190378
+------------------------
+training epoch: 9
+model loss: 0.5622064477723577
+validation metric: 0.5618216698325246
+------------------------
+training epoch: 10
+model loss: 0.5618800909622855
+validation metric: 0.5615184257874675
+------------------------
+training epoch: 11
+model loss: 0.5616033096676287
+validation metric: 0.5612558986124322
+------------------------
+training epoch: 12
+model loss: 0.5613687699255736
+validation metric: 0.561027550476647
+------------------------
+training epoch: 13
+model loss: 0.5611699800128522
+validation metric: 0.5608276619495964
+------------------------
+training epoch: 14
+model loss: 0.5610012055739112
+validation metric: 0.560651277926275
+------------------------
+training epoch: 15
+model loss: 0.5608575052541235
+validation metric: 0.5604941620410067
+------------------------
+training epoch: 16
+model loss: 0.5607345875190652
+validation metric: 0.5603527222063093
+------------------------
+training epoch: 17
+model loss: 0.5606288197247878
+validation metric: 0.560223946912757
+------------------------
+training epoch: 18
+model loss: 0.5605371140915415
+validation metric: 0.5601053431719368
+------------------------
+training epoch: 19
+model loss: 0.5604569089153538
+validation metric: 0.5599948729009038
+------------------------
+training epoch: 20
+model loss: 0.5603860467672348
+validation metric: 0.5598908741359042
+------------------------
+training epoch: 21
+model loss: 0.5603227582962617
+validation metric: 0.5597920221772859
+------------------------
+training epoch: 22
+model loss: 0.5602656395538993
+validation metric: 0.5596972663687821
+------------------------
+training epoch: 23
+model loss: 0.5602134958557461
+validation metric: 0.5596057824930476
+------------------------
+training epoch: 24
+model loss: 0.5601653864850169
+validation metric: 0.5595169364182027
+------------------------
+training epoch: 25
+model loss: 0.5601205475952314
+validation metric: 0.5594302409735029
+------------------------
+training epoch: 26
+model loss: 0.5600783973932266
+validation metric: 0.5593453294001633
+------------------------
+training epoch: 27
+model loss: 0.5600384629291036
+validation metric: 0.5592619344640762
+------------------------
+training epoch: 28
+model loss: 0.5600003509417825
+validation metric: 0.5591798555073235
+------------------------
+training epoch: 29
+model loss: 0.559963772478311
+validation metric: 0.5590989590004058
+------------------------
+training epoch: 30
+model loss: 0.5599285053170245
+validation metric: 0.5590191522486938
+------------------------
+training epoch: 31
+model loss: 0.5598943505598151
+validation metric: 0.5589403641352338
+------------------------
+training epoch: 32
+model loss: 0.5598612000112948
+validation metric: 0.5588625678308807
+------------------------
+training epoch: 33
+model loss: 0.5598289091949877
+validation metric: 0.5587857346294124
+------------------------
+training epoch: 34
+model loss: 0.5597974185062491
+validation metric: 0.5587098560960162
+------------------------
+training epoch: 35
+model loss: 0.5597666456647541
+validation metric: 0.5586349353145773
+------------------------
+training epoch: 36
+model loss: 0.5597365505021551
+validation metric: 0.5585609723548209
+------------------------
+training epoch: 37
+model loss: 0.5597070915543515
+validation metric: 0.5584879802213897
+------------------------
+training epoch: 38
+model loss: 0.5596782318923784
+validation metric: 0.5584159633508806
+------------------------
+training epoch: 39
+model loss: 0.5596499501363091
+validation metric: 0.5583449371202159
+------------------------
+training epoch: 40
+model loss: 0.5596222320328588
+validation metric: 0.5582749060361009
+------------------------
+training epoch: 41
+model loss: 0.5595950400051863
+validation metric: 0.5582058797274853
+------------------------
+training epoch: 42
+model loss: 0.559568381179934
+validation metric: 0.5581378659310995
+------------------------
+training epoch: 43
+model loss: 0.5595422477825828
+validation metric: 0.5580708700315278
+------------------------
+training epoch: 44
+model loss: 0.5595166015884151
+validation metric: 0.5580048958547688
+------------------------
+training epoch: 45
+model loss: 0.559491458794345
+validation metric: 0.5579399500684654
+------------------------
+training epoch: 46
+model loss: 0.5594668051470881
+validation metric: 0.5578760308797861
+------------------------
+training epoch: 47
+model loss: 0.559442628984866
+validation metric: 0.5578131371484484
+------------------------
+training epoch: 48
+model loss: 0.5594189380821974
+validation metric: 0.5577512776797917
+------------------------
+training epoch: 49
+model loss: 0.5593957071718962
+validation metric: 0.5576904411627283
+------------------------
+training epoch: 50
+model loss: 0.5593729518030001
+validation metric: 0.5576306290174967
+------------------------
+training epoch: 51
+model loss: 0.5593506480040757
+validation metric: 0.5575718359461369
+------------------------
+training epoch: 52
+model loss: 0.5593288003102593
+validation metric: 0.55751405951919
+------------------------
+training epoch: 53
+model loss: 0.5593073938203894
+validation metric: 0.5574572941887054
+------------------------
+training epoch: 54
+model loss: 0.5592864525058995
+validation metric: 0.5574015325870577
+------------------------
+training epoch: 55
+model loss: 0.5592659219451572
+validation metric: 0.5573467699314375
+------------------------
+training epoch: 56
+model loss: 0.559245848785276
+validation metric: 0.5572930030188714
+------------------------
+training epoch: 57
+model loss: 0.5592261831397596
+validation metric: 0.5572402152960998
+------------------------
+training epoch: 58
+model loss: 0.5592069580503132
+validation metric: 0.5571884047360334
+------------------------
+training epoch: 59
+model loss: 0.5591881527848865
+validation metric: 0.5571375655890359
+------------------------
+training epoch: 60
+model loss: 0.5591697459635527
+validation metric: 0.5570876827905283
+------------------------
+training epoch: 61
+model loss: 0.5591517706280169
+validation metric: 0.5570387520578768
+------------------------
+training epoch: 62
+model loss: 0.5591341775396595
+validation metric: 0.5569907675620699
+------------------------
+training epoch: 63
+model loss: 0.5591170010359391
+validation metric: 0.5569437125130613
+------------------------
+training epoch: 64
+model loss: 0.5591002307508303
+validation metric: 0.5568975863332257
+------------------------
+training epoch: 65
+model loss: 0.559083830403245
+validation metric: 0.5568523732622315
+------------------------
+training epoch: 66
+model loss: 0.5590678272039994
+validation metric: 0.556808063273707
+------------------------
+training epoch: 67
+model loss: 0.5590522043083025
+validation metric: 0.5567646479654247
+------------------------
+training epoch: 68
+model loss: 0.5590369597725247
+validation metric: 0.556722127398847
+------------------------
+training epoch: 69
+model loss: 0.5590220884136532
+validation metric: 0.5566804784171963
+------------------------
+training epoch: 70
+model loss: 0.559007579865663
+validation metric: 0.5566396967992734
+------------------------
+training epoch: 71
+model loss: 0.5589934282976649
+validation metric: 0.5565997734360727
+------------------------
+training epoch: 72
+model loss: 0.5589796505544496
+validation metric: 0.5565606978659451
+------------------------
+training epoch: 73
+model loss: 0.5589662116506825
+validation metric: 0.5565224562830258
+------------------------
+training epoch: 74
+model loss: 0.5589531245438949
+validation metric: 0.5564850453297769
+------------------------
+training epoch: 75
+model loss: 0.5589403840510742
+validation metric: 0.5564484529148638
+------------------------
+training epoch: 76
+model loss: 0.5589279733274294
+validation metric: 0.5564126652643979
+------------------------
+training epoch: 77
+model loss: 0.5589159079219984
+validation metric: 0.5563776740702809
+------------------------
+training epoch: 78
+model loss: 0.5589041632154713
+validation metric: 0.5563434736092558
+------------------------
+training epoch: 79
+model loss: 0.558892741151478
+validation metric: 0.5563100547570112
+------------------------
+training epoch: 80
+model loss: 0.558881643673648
+validation metric: 0.5562773977544985
+------------------------
+training epoch: 81
+model loss: 0.5588708487541779
+validation metric: 0.5562455044600964
+------------------------
+training epoch: 82
+model loss: 0.5588603609282038
+validation metric: 0.5562143563209528
+------------------------
+training epoch: 83
+model loss: 0.5588501827872318
+validation metric: 0.5561839481639616
+------------------------
+training epoch: 84
+model loss: 0.5588403091482494
+validation metric: 0.5561542719575135
+------------------------
+training epoch: 85
+model loss: 0.5588307134483171
+validation metric: 0.5561253121535986
+------------------------
+training epoch: 86
+model loss: 0.5588214015183242
+validation metric: 0.5560970613791557
+------------------------
+training epoch: 87
+model loss: 0.5588123856679253
+validation metric: 0.556069521121283
+------------------------
+training epoch: 88
+model loss: 0.5588036509959594
+validation metric: 0.5560426648431339
+------------------------
+training epoch: 89
+model loss: 0.5587951657564744
+validation metric: 0.5560164895846736
+------------------------
+training epoch: 90
+model loss: 0.5587869584560394
+validation metric: 0.5559909882042389
+------------------------
+training epoch: 91
+model loss: 0.5587790148413699
+validation metric: 0.5559661478158726
+------------------------
+training epoch: 92
+model loss: 0.5587713122367859
+validation metric: 0.5559419650255579
+------------------------
+training epoch: 93
+model loss: 0.5587638584168061
+validation metric: 0.5559184236995844
+------------------------
+training epoch: 94
+model loss: 0.5587566585644431
+validation metric: 0.5558955175972028
+------------------------
+training epoch: 95
+model loss: 0.5587496977785359
+validation metric: 0.5558732399745825
+------------------------
+training epoch: 96
+model loss: 0.5587429708760717
+validation metric: 0.5558515786877432
+------------------------
+training epoch: 97
+model loss: 0.5587364674910255
+validation metric: 0.5558305287144134
+------------------------
+training epoch: 98
+model loss: 0.558730186327644
+validation metric: 0.5558100709070819
+------------------------
+training epoch: 99
+model loss: 0.5587241163720256
+validation metric: 0.5557902081020121
+------------------------
+training epoch: 100
+model loss: 0.5587182556805403
+validation metric: 0.5557709273172027
+------------------------
+training epoch: 101
+model loss: 0.5587126107319541
+validation metric: 0.55575222046385
+------------------------
+training epoch: 102
+model loss: 0.558707158850587
+validation metric: 0.5557340762865112
+------------------------
+training epoch: 103
+model loss: 0.5587018967970557
+validation metric: 0.5557164891348065
+------------------------
+training epoch: 104
+model loss: 0.5586968271628671
+validation metric: 0.555699449543815
+------------------------
+training epoch: 105
+model loss: 0.5586919434692549
+validation metric: 0.5556829500220078
+------------------------
+training epoch: 106
+model loss: 0.5586872372938239
+validation metric: 0.5556669759584748
+------------------------
+training epoch: 107
+model loss: 0.5586826937354129
+validation metric: 0.555651528207917
+------------------------
+training epoch: 108
+model loss: 0.5586783257515534
+validation metric: 0.5556365887181393
+------------------------
+training epoch: 109
+model loss: 0.5586741152017013
+validation metric: 0.5556221556734781
+------------------------
+training epoch: 110
+model loss: 0.558670052367708
+validation metric: 0.5556082202445151
+------------------------
+training epoch: 111
+model loss: 0.5586661489113517
+validation metric: 0.5555947702154298
+------------------------
+training epoch: 112
+model loss: 0.558662386044212
+validation metric: 0.5555818031624673
+------------------------
+training epoch: 113
+model loss: 0.5586587521045104
+validation metric: 0.555569298085772
+------------------------
+training epoch: 114
+model loss: 0.5586552697679271
+validation metric: 0.5555572618349706
+------------------------
+training epoch: 115
+model loss: 0.5586519014576207
+validation metric: 0.5555456769899869
+------------------------
+training epoch: 116
+model loss: 0.5586486659620119
+validation metric: 0.555534534942544
+------------------------
+training epoch: 117
+model loss: 0.5586455399575441
+validation metric: 0.5555238345506894
+------------------------
+training epoch: 118
+model loss: 0.5586425305708594
+validation metric: 0.5555135572179988
+------------------------
+training epoch: 119
+model loss: 0.5586396345625753
+validation metric: 0.5555037021767871
+------------------------
+training epoch: 120
+model loss: 0.5586368409187897
+validation metric: 0.5554942574995967
+------------------------
+training epoch: 121
+model loss: 0.5586341289074525
+validation metric: 0.5554852161931404
+------------------------
+training epoch: 122
+model loss: 0.5586315289787624
+validation metric: 0.5554765655770365
+------------------------
+training epoch: 123
+model loss: 0.5586290132740269
+validation metric: 0.5554683052224416
+------------------------
+training epoch: 124
+model loss: 0.5586265746666037
+validation metric: 0.5554604209338094
+------------------------
+training epoch: 125
+model loss: 0.5586242293534072
+validation metric: 0.555452904743528
+------------------------
+training epoch: 126
+model loss: 0.5586219533630039
+validation metric: 0.5554457437151764
+------------------------
+training epoch: 127
+model loss: 0.5586197460475175
+validation metric: 0.5554389395779171
+------------------------
+training epoch: 128
+model loss: 0.5586176093505777
+validation metric: 0.5554324723508929
+------------------------
+training epoch: 129
+model loss: 0.5586155322582825
+validation metric: 0.5554263399911471
+------------------------
+training epoch: 130
+model loss: 0.558613518010015
+validation metric: 0.5554205324348767
+------------------------
+training epoch: 131
+model loss: 0.5586115672536518
+validation metric: 0.5554150374126965
+------------------------
+training epoch: 132
+model loss: 0.5586096676795379
+validation metric: 0.5554098523054829
+------------------------
+training epoch: 133
+model loss: 0.5586078056822652
+validation metric: 0.5554049633208339
+------------------------
+training epoch: 134
+model loss: 0.558606022078058
+validation metric: 0.5554003649644949
+------------------------
+training epoch: 135
+model loss: 0.558604245600493
+validation metric: 0.5553960437901447
+------------------------
+training epoch: 136
+model loss: 0.5586025261360666
+validation metric: 0.555391996483723
+------------------------
+training epoch: 137
+model loss: 0.5586008539666301
+validation metric: 0.5553882123446602
+------------------------
+training epoch: 138
+model loss: 0.5585992005856141
+validation metric: 0.5553846814055857
+------------------------
+training epoch: 139
+model loss: 0.5585975873729457
+validation metric: 0.5553813904412006
+------------------------
+training epoch: 140
+model loss: 0.5585959987795871
+validation metric: 0.5553783363776824
+------------------------
+training epoch: 141
+model loss: 0.5585944477630698
+validation metric: 0.5553755081790046
+------------------------
+training epoch: 142
+model loss: 0.558592932379764
+validation metric: 0.555372898743891
+------------------------
+training epoch: 143
+model loss: 0.5585914221794709
+validation metric: 0.5553704987440282
+------------------------
+training epoch: 144
+model loss: 0.5585899547390316
+validation metric: 0.5553683002660298
+------------------------
+training epoch: 145
+model loss: 0.5585884905379751
+validation metric: 0.5553662942919456
+------------------------
+training epoch: 146
+model loss: 0.5585870483647222
+validation metric: 0.5553644705567186
+------------------------
+training epoch: 147
+model loss: 0.5585856353459151
+validation metric: 0.5553628208902296
+------------------------
+training epoch: 148
+model loss: 0.5585842462985412
+validation metric: 0.5553613433045462
+------------------------
+training epoch: 149
+model loss: 0.5585828578990438
+validation metric: 0.5553600229795389
+------------------------
+training epoch: 150
+model loss: 0.5585814798655717
+validation metric: 0.5553588510188132
+------------------------
+training epoch: 151
+model loss: 0.5585801219162734
+validation metric: 0.5553578241444702
+------------------------
+training epoch: 152
+model loss: 0.5585787840511488
+validation metric: 0.5553569344111984
+------------------------
+training epoch: 153
+model loss: 0.5585774559041728
+validation metric: 0.5553561686367701
+------------------------
+training epoch: 154
+model loss: 0.5585761277571969
+validation metric: 0.5553555280548116
+------------------------
+training epoch: 155
+model loss: 0.5585748216380244
+validation metric: 0.5553549988878507
+------------------------
+training epoch: 156
+model loss: 0.5585735129273456
+validation metric: 0.5553545791319606
+------------------------
+training epoch: 157
+model loss: 0.5585722275402235
+validation metric: 0.555354258532873
+------------------------
+training epoch: 158
+model loss: 0.5585709402094716
+validation metric: 0.5553540333465194
+------------------------
+training epoch: 159
+model loss: 0.558569667779881
+validation metric: 0.5553538964266288
+------------------------
+training epoch: 160
+model loss: 0.5585684005333029
+validation metric: 0.5553538458689238
+------------------------
+training epoch: 161
+model loss: 0.5585671397654907
+validation metric: 0.5553538645560382
+------------------------
+training epoch: 162
+model loss: 0.5585658828849378
+validation metric: 0.5553539585350891
+------------------------
+training epoch: 163
+model loss: 0.558564631835274
+validation metric: 0.5553541141820936
+------------------------
+training epoch: 164
+model loss: 0.5585633976304013
+validation metric: 0.5553543351709352
+------------------------
+training epoch: 165
+model loss: 0.5585621575946393
+validation metric: 0.5553546100372527
+------------------------
+training epoch: 166
+model loss: 0.5585609311642854
+validation metric: 0.5553549341288584
+------------------------
+training epoch: 167
+model loss: 0.5585597034381784
+validation metric: 0.5553553059714781
+------------------------
+training epoch: 168
+model loss: 0.558558491261109
+validation metric: 0.5553557195793754
+------------------------
+training epoch: 169
+model loss: 0.55855727714041
+validation metric: 0.5553561725203023
+------------------------
+training epoch: 170
+model loss: 0.5585560675548471
+validation metric: 0.5553566601472888
+------------------------
+training epoch: 171
+model loss: 0.5585548683353092
+validation metric: 0.5553571820393279
+------------------------
+training epoch: 172
+model loss: 0.5585536704115246
+validation metric: 0.555357722449879
+------------------------
+training epoch: 173
+model loss: 0.5585524763749994
+validation metric: 0.5553582966649391
+------------------------
+training epoch: 174
+model loss: 0.5585512875214868
+validation metric: 0.5553588882909698
+------------------------
+training epoch: 175
+model loss: 0.5585501019073569
+validation metric: 0.5553595017022229
+------------------------
+training epoch: 176
+model loss: 0.5585489260113757
+validation metric: 0.5553601345075309
+------------------------
+training epoch: 177
+model loss: 0.558547744932382
+validation metric: 0.5553607775795717
+------------------------
+training epoch: 178
+model loss: 0.5585465742194134
+validation metric: 0.5553614337720406
+------------------------
+training epoch: 179
+model loss: 0.5585454151682232
+validation metric: 0.5553620978748826
+------------------------
+training epoch: 180
+model loss: 0.5585442489903906
+validation metric: 0.55536277194915
+------------------------
+training epoch: 181
+model loss: 0.5585431016009786
+validation metric: 0.5553634537598683
+------------------------
+training epoch: 182
+model loss: 0.5585419516200605
+validation metric: 0.5553641361308035
+------------------------
+training epoch: 183
+model loss: 0.5585407899773639
+validation metric: 0.5553648245091443
+------------------------
+training epoch: 184
+model loss: 0.5585396451794583
+validation metric: 0.5553655157312759
+------------------------
+training epoch: 185
+model loss: 0.5585385049166887
+validation metric: 0.5553662060209326
+------------------------
+training epoch: 186
+model loss: 0.5585373653017957
+validation metric: 0.5553668962617708
+------------------------
+training epoch: 187
+model loss: 0.5585362334614214
+validation metric: 0.5553675848988784
+------------------------
+training epoch: 188
+model loss: 0.5585351119870725
+validation metric: 0.5553682727837672
+------------------------
+training epoch: 189
+model loss: 0.558533982090328
+validation metric: 0.5553689562939149
+------------------------
+training epoch: 190
+model loss: 0.5585328619117322
+validation metric: 0.555369633411286
+------------------------
+training epoch: 191
+model loss: 0.5585317384937535
+validation metric: 0.5553703074897053
+------------------------
+training epoch: 192
+model loss: 0.558530629976936
+validation metric: 0.5553709728032624
+------------------------
+training epoch: 193
+model loss: 0.5585295221079951
+validation metric: 0.55537163498188
+------------------------
+training epoch: 194
+model loss: 0.5585284135911776
+validation metric: 0.5553722932767201
+------------------------
+training epoch: 195
+model loss: 0.5585273128488789
+validation metric: 0.5553729389050283
+------------------------
+training epoch: 196
+model loss: 0.5585262166417163
+validation metric: 0.5553735816165978
+------------------------
+training epoch: 197
+model loss: 0.5585251269133195
+validation metric: 0.5553742167799803
+------------------------
+training epoch: 198
+model loss: 0.5585240235795146
+validation metric: 0.555374842143746
+------------------------
+training epoch: 199
+model loss: 0.55852294097776
+validation metric: 0.555375459904649
+finish train
+
+best epoch: 160
+cost: 2
+cost after combine: 0.5553538458689238
+
+current best 0.5553538458689238  vs. empty frontier
+total time for search 184.6954483985901
+
+---------- depth 0 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 0
+---- prog 0  :  Start
+---- subm program
+-- weight -0.042897533625364304 | 1.0  valid 1  : MLP  | 
+
+
+---------- depth 1 ------------
+-------- Node 0
+------ type sign contain ('atom', 'atom', 22, 1)    debug 1
+---- prog 0  :  MLP
+
+
+
+after search 
+
+------------------------
+training epoch: 0
+model loss: 0.557965180852957
+validation metric: 0.5739322072467651
+------------------------
+training epoch: 1
+model loss: 0.5579610806808137
+validation metric: 0.5739729232607522
+------------------------
+training epoch: 2
+model loss: 0.5579592397338465
+validation metric: 0.5740109416976821
+------------------------
+training epoch: 3
+model loss: 0.5579575342044496
+validation metric: 0.5740466976691027
+------------------------
+training epoch: 4
+model loss: 0.5579558835740674
+validation metric: 0.5740805416422164
+------------------------
+training epoch: 5
+model loss: 0.5579543024824377
+validation metric: 0.5741127327347546
+------------------------
+training epoch: 6
+model loss: 0.5579527485788914
+validation metric: 0.5741435011236362
+------------------------
+training epoch: 7
+model loss: 0.5579512333660795
+validation metric: 0.5741730698648743
+------------------------
+training epoch: 8
+model loss: 0.5579497359300915
+validation metric: 0.5742015849231692
+------------------------
+training epoch: 9
+model loss: 0.5579482745705989
+validation metric: 0.5742292052132437
+------------------------
+training epoch: 10
+model loss: 0.5579468158253452
+validation metric: 0.5742560195621045
+------------------------
+training epoch: 11
+model loss: 0.5579453826996318
+validation metric: 0.5742821648651306
+------------------------
+training epoch: 12
+model loss: 0.5579439453911363
+validation metric: 0.5743077192814663
+------------------------
+training epoch: 13
+model loss: 0.5579425520018527
+validation metric: 0.5743327321764355
+------------------------
+training epoch: 14
+model loss: 0.5579411471099184
+validation metric: 0.5743573111822133
+------------------------
+training epoch: 15
+model loss: 0.557939759994808
+validation metric: 0.5743814749584274
+------------------------
+training epoch: 16
+model loss: 0.5579383760167841
+validation metric: 0.5744052928567741
+------------------------
+training epoch: 17
+model loss: 0.5579370139983663
+validation metric: 0.574428791482908
+------------------------
+training epoch: 18
+model loss: 0.5579356493657095
+validation metric: 0.5744520220738256
+------------------------
+training epoch: 19
+model loss: 0.5579342941443125
+validation metric: 0.5744749990236832
+------------------------
+training epoch: 20
+model loss: 0.5579329587911305
+validation metric: 0.5744977623327839
+------------------------
+training epoch: 21
+model loss: 0.5579316082753634
+validation metric: 0.5745203498184921
+------------------------
+training epoch: 22
+model loss: 0.5579302786735066
+validation metric: 0.574542750224057
+------------------------
+training epoch: 23
+model loss: 0.5579289553458231
+validation metric: 0.5745649990469154
+------------------------
+training epoch: 24
+model loss: 0.5579276393380082
+validation metric: 0.5745870952682144
+------------------------
+training epoch: 25
+model loss: 0.557926325944432
+validation metric: 0.5746090703264424
+------------------------
+training epoch: 26
+model loss: 0.5579250177793336
+validation metric: 0.5746309169712913
+------------------------
+training epoch: 27
+model loss: 0.5579237242539724
+validation metric: 0.57465264401237
+------------------------
+training epoch: 28
+model loss: 0.5579224197488082
+validation metric: 0.5746742697903837
+------------------------
+training epoch: 29
+model loss: 0.5579211309290769
+validation metric: 0.5746957883967755
+------------------------
+training epoch: 30
+model loss: 0.5579198504749098
+validation metric: 0.5747172041546005
+------------------------
+training epoch: 31
+model loss: 0.5579185731578291
+validation metric: 0.5747385274472309
+------------------------
+training epoch: 32
+model loss: 0.5579173047291605
+validation metric: 0.5747597821822028
+------------------------
+training epoch: 33
+model loss: 0.5579160363004919
+validation metric: 0.5747809574246876
+------------------------
+training epoch: 34
+model loss: 0.5579147626433456
+validation metric: 0.5748020465023213
+------------------------
+training epoch: 35
+model loss: 0.5579135104229576
+validation metric: 0.5748230686673159
+------------------------
+training epoch: 36
+model loss: 0.5579122545426352
+validation metric: 0.5748440098497059
+------------------------
+training epoch: 37
+model loss: 0.5579110096421158
+validation metric: 0.5748648868561234
+------------------------
+training epoch: 38
+model loss: 0.557909769970074
+validation metric: 0.5748856968636592
+------------------------
+training epoch: 39
+model loss: 0.5579085282066412
+validation metric: 0.5749064325524217
+------------------------
+training epoch: 40
+model loss: 0.5579072963773158
+validation metric: 0.5749271080113408
+------------------------
+training epoch: 41
+model loss: 0.5579060734364024
+validation metric: 0.5749477247962266
+------------------------
+training epoch: 42
+model loss: 0.5579048478812502
+validation metric: 0.5749682772995475
+------------------------
+training epoch: 43
+model loss: 0.5579036259860323
+validation metric: 0.5749887827984113
+------------------------
+training epoch: 44
+model loss: 0.5579024098421398
+validation metric: 0.5750092366734212
+------------------------
+training epoch: 45
+model loss: 0.5579011984038771
+validation metric: 0.575029622832864
+------------------------
+training epoch: 46
+model loss: 0.5579000042195905
+validation metric: 0.5750499462011134
+------------------------
+training epoch: 47
+model loss: 0.5578987964412623
+validation metric: 0.5750702183752484
+------------------------
+training epoch: 48
+model loss: 0.5578975991198891
+validation metric: 0.5750904318910691
+------------------------
+training epoch: 49
+model loss: 0.5578964096412324
+validation metric: 0.5751105926541367
+------------------------
+training epoch: 50
+model loss: 0.5578952102284682
+validation metric: 0.5751306826844864
+------------------------
+training epoch: 51
+model loss: 0.5578940380037877
+validation metric: 0.5751507195444794
+------------------------
+training epoch: 52
+model loss: 0.5578928542764563
+validation metric: 0.5751706983220117
+------------------------
+training epoch: 53
+model loss: 0.5578916851888623
+validation metric: 0.5751906274740965
+------------------------
+training epoch: 54
+model loss: 0.5578905171469638
+validation metric: 0.5752105017183894
+------------------------
+training epoch: 55
+model loss: 0.5578893464908266
+validation metric: 0.5752303149539228
+------------------------
+training epoch: 56
+model loss: 0.5578881800174713
+validation metric: 0.5752500801678014
+------------------------
+training epoch: 57
+model loss: 0.5578870156355071
+validation metric: 0.5752697868669504
+------------------------
+training epoch: 58
+model loss: 0.5578858606648027
+validation metric: 0.5752894363988423
+------------------------
+training epoch: 59
+model loss: 0.5578847177195967
+validation metric: 0.5753090275488852
+------------------------
+training epoch: 60
+model loss: 0.5578835705916086
+validation metric: 0.5753285677418352
+------------------------
+training epoch: 61
+model loss: 0.5578824250321639
+validation metric: 0.5753480526170516
+------------------------
+training epoch: 62
+model loss: 0.557881288361131
+validation metric: 0.5753674798153354
+------------------------
+training epoch: 63
+model loss: 0.5578801543043371
+validation metric: 0.5753868574197787
+------------------------
+training epoch: 64
+model loss: 0.5578790223389342
+validation metric: 0.5754061899345747
+------------------------
+training epoch: 65
+model loss: 0.5578778888049879
+validation metric: 0.5754254687518736
+------------------------
+training epoch: 66
+model loss: 0.5578767657279968
+validation metric: 0.5754446861720298
+------------------------
+training epoch: 67
+model loss: 0.5578756504937222
+validation metric: 0.5754638523010251
+------------------------
+training epoch: 68
+model loss: 0.55787453003097
+validation metric: 0.5754829609829134
+------------------------
+training epoch: 69
+model loss: 0.5578734252536506
+validation metric: 0.5755020030923721
+------------------------
+training epoch: 70
+model loss: 0.5578723110650715
+validation metric: 0.5755209998026923
+------------------------
+training epoch: 71
+model loss: 0.557871215176164
+validation metric: 0.5755399363774305
+------------------------
+training epoch: 72
+model loss: 0.5578701109216925
+validation metric: 0.5755588261283039
+------------------------
+training epoch: 73
+model loss: 0.5578690056215253
+validation metric: 0.5755776610862593
+------------------------
+training epoch: 74
+model loss: 0.5578679212352686
+validation metric: 0.5755964429919137
+------------------------
+training epoch: 75
+model loss: 0.5578668243006656
+validation metric: 0.5756151724423499
+------------------------
+training epoch: 76
+model loss: 0.5578657373001701
+validation metric: 0.5756338545214992
+------------------------
+training epoch: 77
+model loss: 0.5578646555281522
+validation metric: 0.5756524779620706
+------------------------
+training epoch: 78
+model loss: 0.5578635763703731
+validation metric: 0.5756710525175632
+------------------------
+training epoch: 79
+model loss: 0.5578625019182238
+validation metric: 0.5756895601563904
+------------------------
+training epoch: 80
+model loss: 0.5578614248518359
+validation metric: 0.5757080235068229
+------------------------
+training epoch: 81
+model loss: 0.5578603551053164
+validation metric: 0.5757264314426496
+------------------------
+training epoch: 82
+model loss: 0.557859292155818
+validation metric: 0.5757447969728405
+------------------------
+training epoch: 83
+model loss: 0.5578582318205583
+validation metric: 0.5757631164219443
+------------------------
+training epoch: 84
+model loss: 0.5578571761909284
+validation metric: 0.5757813964427807
+------------------------
+training epoch: 85
+model loss: 0.5578561205612985
+validation metric: 0.5757996218951359
+------------------------
+training epoch: 86
+model loss: 0.5578550628402776
+validation metric: 0.5758177927184751
+------------------------
+training epoch: 87
+model loss: 0.5578540223732329
+validation metric: 0.5758359105516553
+------------------------
+training epoch: 88
+model loss: 0.5578529751091673
+validation metric: 0.5758539780713468
+------------------------
+training epoch: 89
+model loss: 0.5578519236623195
+validation metric: 0.5758720047475947
+------------------------
+training epoch: 90
+model loss: 0.5578508889466002
+validation metric: 0.5758899677551963
+------------------------
+training epoch: 91
+model loss: 0.5578498531851852
+validation metric: 0.5759078803389348
+------------------------
+training epoch: 92
+model loss: 0.5578488252664867
+validation metric: 0.5759257442341223
+------------------------
+training epoch: 93
+model loss: 0.5578477895050719
+validation metric: 0.5759435532255588
+------------------------
+training epoch: 94
+model loss: 0.5578467631549165
+validation metric: 0.5759613018662859
+------------------------
+training epoch: 95
+model loss: 0.5578457441246301
+validation metric: 0.5759790061227209
+------------------------
+training epoch: 96
+model loss: 0.5578447256171912
+validation metric: 0.5759966601724034
+------------------------
+training epoch: 97
+model loss: 0.5578437118153823
+validation metric: 0.5760142731108094
+------------------------
+training epoch: 98
+model loss: 0.5578427001049644
+validation metric: 0.5760318368606353
+------------------------
+training epoch: 99
+model loss: 0.5578416852574599
+validation metric: 0.5760493504435719
+------------------------
+training epoch: 100
+model loss: 0.5578406819126063
+validation metric: 0.5760668175207255
+------------------------
+training epoch: 101
+model loss: 0.5578396717707316
+validation metric: 0.5760842327055544
+------------------------
+training epoch: 102
+model loss: 0.5578386752228988
+validation metric: 0.5761016082727939
+------------------------
+training epoch: 103
+model loss: 0.5578376744922838
+validation metric: 0.5761189293370585
+------------------------
+training epoch: 104
+model loss: 0.5578366852643197
+validation metric: 0.5761362019341997
+------------------------
+training epoch: 105
+model loss: 0.5578356928992689
+validation metric: 0.5761534313699191
+------------------------
+training epoch: 106
+model loss: 0.5578347021027615
+validation metric: 0.5761706101996006
+------------------------
+training epoch: 107
+model loss: 0.5578337275145346
+validation metric: 0.5761877410278184
+------------------------
+training epoch: 108
+model loss: 0.557832741423657
+validation metric: 0.5762048194956146
+------------------------
+training epoch: 109
+model loss: 0.5578317527185407
+validation metric: 0.5762218563002607
+------------------------
+training epoch: 110
+model loss: 0.5578307796988571
+validation metric: 0.5762388395431323
+------------------------
+training epoch: 111
+model loss: 0.5578298072020212
+validation metric: 0.5762557820909533
+------------------------
+training epoch: 112
+model loss: 0.5578288404565108
+validation metric: 0.5762726710192598
+------------------------
+training epoch: 113
+model loss: 0.5578278737110004
+validation metric: 0.5762895092307322
+------------------------
+training epoch: 114
+model loss: 0.557826900168469
+validation metric: 0.5763063028972066
+------------------------
+training epoch: 115
+model loss: 0.5578259396971318
+validation metric: 0.5763230504343182
+------------------------
+training epoch: 116
+model loss: 0.5578249807943377
+validation metric: 0.5763397500916887
+------------------------
+training epoch: 117
+model loss: 0.5578240302571079
+validation metric: 0.5763564049799507
+------------------------
+training epoch: 118
+model loss: 0.5578230765827915
+validation metric: 0.5763730103837351
+------------------------
+training epoch: 119
+model loss: 0.5578221155886065
+validation metric: 0.5763895746008975
+------------------------
+training epoch: 120
+model loss: 0.557821172894093
+validation metric: 0.5764060896676122
+------------------------
+training epoch: 121
+model loss: 0.5578202275853408
+validation metric: 0.5764225722814478
+------------------------
+training epoch: 122
+model loss: 0.5578192895964572
+validation metric: 0.5764390028413242
+------------------------
+training epoch: 123
+model loss: 0.5578183495161826
+validation metric: 0.5764553890100881
+------------------------
+training epoch: 124
+model loss: 0.5578174068216692
+validation metric: 0.576471724578345
+------------------------
+training epoch: 125
+model loss: 0.5578164756298065
+validation metric: 0.5764880157075357
+------------------------
+training epoch: 126
+model loss: 0.5578155418237051
+validation metric: 0.5765042661678268
+------------------------
+training epoch: 127
+model loss: 0.5578146122003856
+validation metric: 0.576520473753798
+------------------------
+training epoch: 128
+model loss: 0.5578136909426304
+validation metric: 0.5765366310972999
+------------------------
+training epoch: 129
+model loss: 0.5578127644563976
+validation metric: 0.576552747717752
+------------------------
+training epoch: 130
+model loss: 0.5578118411072513
+validation metric: 0.5765688096848489
+------------------------
+training epoch: 131
+model loss: 0.5578109271693648
+validation metric: 0.5765848387475012
+------------------------
+training epoch: 132
+model loss: 0.5578100064344573
+validation metric: 0.5766008230114421
+------------------------
+training epoch: 133
+model loss: 0.5578090909280276
+validation metric: 0.5766167603597795
+------------------------
+training epoch: 134
+model loss: 0.5578081864014006
+validation metric: 0.5766326501097913
+------------------------
+training epoch: 135
+model loss: 0.557807279260535
+validation metric: 0.576648498761919
+------------------------
+training epoch: 136
+model loss: 0.557806377348147
+validation metric: 0.5766643017272919
+------------------------
+training epoch: 137
+model loss: 0.5578054801413888
+validation metric: 0.57668006069142
+------------------------
+training epoch: 138
+model loss: 0.5578045630664156
+validation metric: 0.5766957793078464
+------------------------
+training epoch: 139
+model loss: 0.5578036705652872
+validation metric: 0.5767114498504962
+------------------------
+training epoch: 140
+model loss: 0.5578027744042245
+validation metric: 0.5767270848946026
+------------------------
+training epoch: 141
+model loss: 0.5578018839944873
+validation metric: 0.5767426746885567
+------------------------
+training epoch: 142
+model loss: 0.5578010024731619
+validation metric: 0.5767582199386488
+------------------------
+training epoch: 143
+model loss: 0.5578001183375978
+validation metric: 0.5767737288756113
+------------------------
+training epoch: 144
+model loss: 0.5577992253136217
+validation metric: 0.576789201195731
+------------------------
+training epoch: 145
+model loss: 0.557798340132362
+validation metric: 0.5768046360289798
+------------------------
+training epoch: 146
+model loss: 0.5577974659309053
+validation metric: 0.5768200276774547
+------------------------
+training epoch: 147
+model loss: 0.5577965823181888
+validation metric: 0.5768353850637665
+------------------------
+training epoch: 148
+model loss: 0.5577957049796456
+validation metric: 0.5768506879361515
+------------------------
+training epoch: 149
+model loss: 0.5577948407122963
+validation metric: 0.5768659568583536
+------------------------
+training epoch: 150
+model loss: 0.5577939696479262
+validation metric: 0.5768811734401584
+------------------------
+training epoch: 151
+model loss: 0.5577930970150128
+validation metric: 0.576896360746731
+------------------------
+training epoch: 152
+model loss: 0.5577922364075979
+validation metric: 0.5769115035002198
+------------------------
+training epoch: 153
+model loss: 0.5577913710945531
+validation metric: 0.5769266082722735
+------------------------
+training epoch: 154
+model loss: 0.557790504212965
+validation metric: 0.5769416689727093
+------------------------
+training epoch: 155
+model loss: 0.5577896456969412
+validation metric: 0.5769566842856841
+------------------------
+training epoch: 156
+model loss: 0.5577888049577412
+validation metric: 0.5769716574989384
+------------------------
+training epoch: 157
+model loss: 0.5577879396446964
+validation metric: 0.576986592600643
+------------------------
+training epoch: 158
+model loss: 0.5577870905399323
+validation metric: 0.5770014861799119
+------------------------
+training epoch: 159
+model loss: 0.5577862414351681
+validation metric: 0.5770163475085333
+------------------------
+training epoch: 160
+model loss: 0.5577854001731203
+validation metric: 0.5770311582555111
+------------------------
+training epoch: 161
+model loss: 0.5577845458398786
+validation metric: 0.5770459387328526
+------------------------
+training epoch: 162
+model loss: 0.5577837071920696
+validation metric: 0.5770606789665584
+------------------------
+training epoch: 163
+model loss: 0.5577828690671084
+validation metric: 0.577075376624113
+------------------------
+training epoch: 164
+model loss: 0.5577820351249293
+validation metric: 0.5770900375492811
+------------------------
+training epoch: 165
+model loss: 0.5577811959542727
+validation metric: 0.5771046556167367
+------------------------
+training epoch: 166
+model loss: 0.5577803656720278
+validation metric: 0.5771192402869826
+------------------------
+training epoch: 167
+model loss: 0.5577795359126309
+validation metric: 0.577133779370661
+------------------------
+training epoch: 168
+model loss: 0.5577787077217772
+validation metric: 0.5771482903720506
+------------------------
+training epoch: 169
+model loss: 0.5577778821451622
+validation metric: 0.577162761393882
+------------------------
+training epoch: 170
+model loss: 0.5577770539543085
+validation metric: 0.5771771923314861
+------------------------
+training epoch: 171
+model loss: 0.5577762367432577
+validation metric: 0.5771915935679839
+------------------------
+training epoch: 172
+model loss: 0.5577754137808817
+validation metric: 0.5772059503830227
+------------------------
+training epoch: 173
+model loss: 0.5577745918642011
+validation metric: 0.5772202685648982
+------------------------
+training epoch: 174
+model loss: 0.5577737830187145
+validation metric: 0.5772345482623468
+------------------------
+training epoch: 175
+model loss: 0.5577729794017056
+validation metric: 0.5772487846736833
+------------------------
+training epoch: 176
+model loss: 0.5577721590535683
+validation metric: 0.5772629906979375
+------------------------
+training epoch: 177
+model loss: 0.5577713475938428
+validation metric: 0.5772771523342238
+------------------------
+training epoch: 178
+model loss: 0.5577705397940519
+validation metric: 0.5772912773460877
+------------------------
+training epoch: 179
+model loss: 0.5577697387912817
+validation metric: 0.5773053670854822
+------------------------
+training epoch: 180
+model loss: 0.5577689383113593
+validation metric: 0.577319419090424
+------------------------
+training epoch: 181
+model loss: 0.5577681305115683
+validation metric: 0.5773334337792588
+------------------------
+training epoch: 182
+model loss: 0.5577673404886011
+validation metric: 0.5773474178057971
+------------------------
+training epoch: 183
+model loss: 0.5577665421000698
+validation metric: 0.5773613594040123
+------------------------
+training epoch: 184
+model loss: 0.5577657458029295
+validation metric: 0.5773752595428079
+------------------------
+training epoch: 185
+model loss: 0.5577649552571146
+validation metric: 0.5773891263317297
+------------------------
+training epoch: 186
+model loss: 0.5577641662798429
+validation metric: 0.5774029528560108
+------------------------
+training epoch: 187
+model loss: 0.5577633799168101
+validation metric: 0.5774167452338681
+------------------------
+training epoch: 188
+model loss: 0.5577625956451684
+validation metric: 0.5774305073524123
+------------------------
+training epoch: 189
+model loss: 0.5577618092821356
+validation metric: 0.5774442244706659
+------------------------
+training epoch: 190
+model loss: 0.5577610250104937
+validation metric: 0.5774579240795987
+------------------------
+training epoch: 191
+model loss: 0.5577602449216341
+validation metric: 0.5774715800480341
+------------------------
+training epoch: 192
+model loss: 0.5577594674470132
+validation metric: 0.5774851910517086
+------------------------
+training epoch: 193
+model loss: 0.55775869520087
+validation metric: 0.5774987795689749
+------------------------
+training epoch: 194
+model loss: 0.5577579182490968
+validation metric: 0.5775123248415557
+------------------------
+training epoch: 195
+model loss: 0.5577571517542789
+validation metric: 0.5775258423118484
+------------------------
+training epoch: 196
+model loss: 0.5577563748025057
+validation metric: 0.5775393274485098
+------------------------
+training epoch: 197
+model loss: 0.5577556114447745
+validation metric: 0.5775527764799233
+------------------------
+training epoch: 198
+model loss: 0.5577548402443266
+validation metric: 0.577566189677195
+------------------------
+training epoch: 199
+model loss: 0.5577540768865954
+validation metric: 0.5775795585933379
+finish train
+
+best epoch: 0
+time spend: 89.42828130722046 
+
+Best Program Found:
+Start(MLP())
+Before finetune
+ALGORITHM END 
+
+
+Finetune
+------------------------
+training epoch: 0
+model loss: 0.5582634158301771
+validation metric: 0.5748495849125006
+------------------------
+training epoch: 1
+model loss: 0.558208835229539
+validation metric: 0.5753854040409858
+------------------------
+training epoch: 2
+model loss: 0.5581703719339872
+validation metric: 0.5758912525150685
+------------------------
+training epoch: 3
+model loss: 0.5581428068771697
+validation metric: 0.5763556063336975
+------------------------
+training epoch: 4
+model loss: 0.5581175355534804
+validation metric: 0.5767845750381857
+------------------------
+training epoch: 5
+model loss: 0.5580942578483046
+validation metric: 0.5771834103079523
+------------------------
+training epoch: 6
+model loss: 0.5580726511645735
+validation metric: 0.5775555392499928
+------------------------
+training epoch: 7
+model loss: 0.558052494860532
+validation metric: 0.5779035181322112
+------------------------
+training epoch: 8
+model loss: 0.5580336205792009
+validation metric: 0.57822940965722
+------------------------
+training epoch: 9
+model loss: 0.5580158902887713
+validation metric: 0.5785349333386778
+------------------------
+training epoch: 10
+model loss: 0.5579991983739954
+validation metric: 0.578821606148566
+------------------------
+training epoch: 11
+model loss: 0.5579834413110164
+validation metric: 0.5790908014313754
+------------------------
+training epoch: 12
+model loss: 0.5579685438097569
+validation metric: 0.579343722842539
+------------------------
+training epoch: 13
+model loss: 0.557954433194378
+validation metric: 0.5795814919748067
+------------------------
+training epoch: 14
+model loss: 0.5579410420175184
+validation metric: 0.5798051205338531
+------------------------
+training epoch: 15
+model loss: 0.5579283132887723
+validation metric: 0.5800155528155768
+------------------------
+training epoch: 16
+model loss: 0.557916195769059
+validation metric: 0.5802136160961193
+------------------------
+training epoch: 17
+model loss: 0.5579046502447965
+validation metric: 0.5804000823571216
+------------------------
+training epoch: 18
+model loss: 0.5578936244312086
+validation metric: 0.5805756759062237
+------------------------
+training epoch: 19
+model loss: 0.5578830890488207
+validation metric: 0.5807410471767631
+------------------------
+training epoch: 20
+model loss: 0.5578730048840506
+validation metric: 0.5808968098579398
+------------------------
+training epoch: 21
+model loss: 0.5578633531143791
+validation metric: 0.5810435032239843
+------------------------
+training epoch: 22
+model loss: 0.5578540908662897
+validation metric: 0.5811816762924095
+------------------------
+training epoch: 23
+model loss: 0.5578451987944151
+validation metric: 0.5813117988438505
+------------------------
+training epoch: 24
+model loss: 0.5578366533706063
+validation metric: 0.5814343195187388
+------------------------
+training epoch: 25
+model loss: 0.5578284357723436
+validation metric: 0.5815496466338574
+------------------------
+training epoch: 26
+model loss: 0.5578205214257825
+validation metric: 0.5816581680150956
+------------------------
+training epoch: 27
+model loss: 0.5578128894170126
+validation metric: 0.5817602513781867
+------------------------
+training epoch: 28
+model loss: 0.5578055282433828
+validation metric: 0.5818562250858168
+------------------------
+training epoch: 29
+model loss: 0.5577984274479381
+validation metric: 0.5819464173257217
+------------------------
+training epoch: 30
+model loss: 0.5577915561826605
+validation metric: 0.5820311329887989
+------------------------
+training epoch: 31
+model loss: 0.5577849066048338
+validation metric: 0.5821106299070204
+------------------------
+training epoch: 32
+model loss: 0.5577784808058488
+validation metric: 0.5821851878889315
+------------------------
+training epoch: 33
+model loss: 0.5577722604860339
+validation metric: 0.582255044599958
+------------------------
+training epoch: 34
+model loss: 0.5577662210715445
+validation metric: 0.5823204256233782
+------------------------
+training epoch: 35
+model loss: 0.5577603688365534
+validation metric: 0.5823815767829642
+------------------------
+training epoch: 36
+model loss: 0.5577546922784102
+validation metric: 0.5824386800110228
+------------------------
+training epoch: 37
+model loss: 0.55774916682327
+validation metric: 0.5824919581232768
+------------------------
+training epoch: 38
+model loss: 0.5577438133850432
+validation metric: 0.5825415507691066
+------------------------
+training epoch: 39
+model loss: 0.5577385948415388
+validation metric: 0.5825876735216283
+------------------------
+training epoch: 40
+model loss: 0.5577335284467329
+validation metric: 0.5826305069090674
+------------------------
+training epoch: 41
+model loss: 0.5577286016522792
+validation metric: 0.582670155928174
+------------------------
+training epoch: 42
+model loss: 0.5577237867472464
+validation metric: 0.5827068198749108
+------------------------
+training epoch: 43
+model loss: 0.5577191130111092
+validation metric: 0.5827406126268182
+------------------------
+training epoch: 44
+model loss: 0.5577145427988287
+validation metric: 0.5827716739248047
+------------------------
+training epoch: 45
+model loss: 0.5577100938872287
+validation metric: 0.5828001331571059
+------------------------
+training epoch: 46
+model loss: 0.5577057500680288
+validation metric: 0.5828261276899769
+------------------------
+training epoch: 47
+model loss: 0.5577015102955333
+validation metric: 0.5828497527201306
+------------------------
+training epoch: 48
+model loss: 0.557697373001199
+validation metric: 0.5828711167538448
+------------------------
+training epoch: 49
+model loss: 0.5576933272052229
+validation metric: 0.582890326323894
+------------------------
+training epoch: 50
+model loss: 0.5576893807503215
+validation metric: 0.5829074824011388
+------------------------
+training epoch: 51
+model loss: 0.5576855158596709
+validation metric: 0.5829226908651992
+------------------------
+training epoch: 52
+model loss: 0.5576817403759873
+validation metric: 0.5829360327901241
+------------------------
+training epoch: 53
+model loss: 0.5576780464565545
+validation metric: 0.5829475803402036
+------------------------
+training epoch: 54
+model loss: 0.5576744377613068
+validation metric: 0.58295743939588
+------------------------
+training epoch: 55
+model loss: 0.5576708944220292
+validation metric: 0.5829656807147972
+------------------------
+training epoch: 56
+model loss: 0.5576674336926979
+validation metric: 0.5829723735537594
+------------------------
+training epoch: 57
+model loss: 0.5576640341365546
+validation metric: 0.5829775770890517
+------------------------
+training epoch: 58
+model loss: 0.5576607124847278
+validation metric: 0.5829813712709245
+------------------------
+training epoch: 59
+model loss: 0.5576574656001309
+validation metric: 0.5829838333535103
+------------------------
+training epoch: 60
+model loss: 0.55765427100031
+validation metric: 0.5829850113401917
+------------------------
+training epoch: 61
+model loss: 0.5576511443706981
+validation metric: 0.5829849860051253
+------------------------
+training epoch: 62
+model loss: 0.5576480757771877
+validation metric: 0.5829837836373618
+------------------------
+training epoch: 63
+model loss: 0.5576450709711042
+validation metric: 0.5829814648680817
+------------------------
+training epoch: 64
+model loss: 0.5576421074699938
+validation metric: 0.5829780779501689
+------------------------
+training epoch: 65
+model loss: 0.5576392187361132
+validation metric: 0.5829736708103712
+------------------------
+training epoch: 66
+model loss: 0.5576363786270744
+validation metric: 0.5829682927021226
+------------------------
+training epoch: 67
+model loss: 0.5576335887114207
+validation metric: 0.5829619921254112
+------------------------
+training epoch: 68
+model loss: 0.5576308552633252
+validation metric: 0.5829548130451127
+------------------------
+training epoch: 69
+model loss: 0.5576281631202028
+validation metric: 0.5829467988467617
+------------------------
+training epoch: 70
+model loss: 0.5576255190790745
+validation metric: 0.5829379708600718
+------------------------
+training epoch: 71
+model loss: 0.5576229267998746
+validation metric: 0.5829283789629912
+------------------------
+training epoch: 72
+model loss: 0.5576203700743223
+validation metric: 0.5829180581367298
+------------------------
+training epoch: 73
+model loss: 0.5576178645878508
+validation metric: 0.5829070291253737
+------------------------
+training epoch: 74
+model loss: 0.5576154072033731
+validation metric: 0.582895339123598
+------------------------
+training epoch: 75
+model loss: 0.5576129848496956
+validation metric: 0.5828830053081231
+------------------------
+training epoch: 76
+model loss: 0.5576106027552956
+validation metric: 0.582870072543113
+------------------------
+training epoch: 77
+model loss: 0.5576082656258031
+validation metric: 0.5828565555331977
+------------------------
+training epoch: 78
+model loss: 0.557605969278436
+validation metric: 0.5828424910620489
+------------------------
+training epoch: 79
+model loss: 0.5576037058704778
+validation metric: 0.5828278939211082
+------------------------
+training epoch: 80
+model loss: 0.5576014748790807
+validation metric: 0.582812786087401
+------------------------
+training epoch: 81
+model loss: 0.5575992831012659
+validation metric: 0.5827971975109879
+------------------------
+training epoch: 82
+model loss: 0.557597126354251
+validation metric: 0.5827811475700092
+------------------------
+training epoch: 83
+model loss: 0.557595011435057
+validation metric: 0.5827646761978336
+------------------------
+training epoch: 84
+model loss: 0.5575929221354032
+validation metric: 0.5827477775972455
+------------------------
+training epoch: 85
+model loss: 0.5575908746635705
+validation metric: 0.5827304865879173
+------------------------
+training epoch: 86
+model loss: 0.557588843922866
+validation metric: 0.5827128034702502
+------------------------
+training epoch: 87
+model loss: 0.5575868591927645
+validation metric: 0.5826947686527937
+------------------------
+training epoch: 88
+model loss: 0.5575848985136601
+validation metric: 0.5826763799920017
+------------------------
+training epoch: 89
+model loss: 0.5575829665911826
+validation metric: 0.5826576550906234
+------------------------
+training epoch: 90
+model loss: 0.5575810623796362
+validation metric: 0.5826386262678888
+------------------------
+training epoch: 91
+model loss: 0.5575791942445856
+validation metric: 0.5826192888135852
+------------------------
+training epoch: 92
+model loss: 0.557577345454902
+validation metric: 0.5825996706832975
+------------------------
+training epoch: 93
+model loss: 0.5575755332645617
+validation metric: 0.5825797759380759
+------------------------
+training epoch: 94
+model loss: 0.5575737414652842
+validation metric: 0.5825596300255489
+------------------------
+training epoch: 95
+model loss: 0.5575719742398513
+validation metric: 0.5825392229885095
+------------------------
+training epoch: 96
+model loss: 0.5575702326339588
+validation metric: 0.5825186018063101
+------------------------
+training epoch: 97
+model loss: 0.557568528673105
+validation metric: 0.5824977357720234
+------------------------
+training epoch: 98
+model loss: 0.5575668362149021
+validation metric: 0.5824766651429087
+------------------------
+training epoch: 99
+model loss: 0.5575651688533917
+validation metric: 0.5824553929162096
+------------------------
+training epoch: 100
+model loss: 0.5575635286799648
+validation metric: 0.5824339265789324
+------------------------
+training epoch: 101
+model loss: 0.5575619073290574
+validation metric: 0.5824122715321043
+------------------------
+training epoch: 102
+model loss: 0.5575603089834514
+validation metric: 0.5823904449587264
+------------------------
+training epoch: 103
+model loss: 0.5575587383487768
+validation metric: 0.5823684519755472
+------------------------
+training epoch: 104
+model loss: 0.5575571896737082
+validation metric: 0.5823462925794093
+------------------------
+training epoch: 105
+model loss: 0.5575556514555948
+validation metric: 0.5823239962039246
+------------------------
+training epoch: 106
+model loss: 0.557554142516956
+validation metric: 0.582301541961206
+------------------------
+training epoch: 107
+model loss: 0.5575526612892485
+validation metric: 0.5822789497388112
+------------------------
+training epoch: 108
+model loss: 0.55755118267578
+validation metric: 0.5822562300206289
+------------------------
+training epoch: 109
+model loss: 0.5575497322960904
+validation metric: 0.5822333901323696
+------------------------
+training epoch: 110
+model loss: 0.557548299170377
+validation metric: 0.5822104290251915
+------------------------
+training epoch: 111
+model loss: 0.5575468911413561
+validation metric: 0.582187365586002
+------------------------
+training epoch: 112
+model loss: 0.5575455035033979
+validation metric: 0.582164200449342
+------------------------
+training epoch: 113
+model loss: 0.5575441169111353
+validation metric: 0.582140938682659
+------------------------
+training epoch: 114
+model loss: 0.5575427653496725
+validation metric: 0.5821175662009102
+------------------------
+training epoch: 115
+model loss: 0.5575414315650338
+validation metric: 0.5820941180937833
+------------------------
+training epoch: 116
+model loss: 0.5575401118972845
+validation metric: 0.5820705810744755
+------------------------
+training epoch: 117
+model loss: 0.5575388100063592
+validation metric: 0.582046967193749
+------------------------
+training epoch: 118
+model loss: 0.5575375096839771
+validation metric: 0.58202326489123
+------------------------
+training epoch: 119
+model loss: 0.5575362344582876
+validation metric: 0.5819995066641711
+------------------------
+training epoch: 120
+model loss: 0.5575349838064428
+validation metric: 0.5819756723209973
+------------------------
+training epoch: 121
+model loss: 0.5575337415201622
+validation metric: 0.5819517915656578
+------------------------
+training epoch: 122
+model loss: 0.5575325123050756
+validation metric: 0.5819278329153904
+------------------------
+training epoch: 123
+model loss: 0.5575313003439653
+validation metric: 0.5819038105717446
+------------------------
+training epoch: 124
+model loss: 0.5575301040682876
+validation metric: 0.5818797417375547
+------------------------
+training epoch: 125
+model loss: 0.5575289255694339
+validation metric: 0.5818556274586028
+------------------------
+training epoch: 126
+model loss: 0.5575277570046877
+validation metric: 0.5818314731315848
+------------------------
+training epoch: 127
+model loss: 0.5575265988968966
+validation metric: 0.5818072756156326
+------------------------
+training epoch: 128
+model loss: 0.5575254606573206
+validation metric: 0.5817830301176812
+------------------------
+training epoch: 129
+model loss: 0.5575243339203951
+validation metric: 0.5817587558390286
+------------------------
+training epoch: 130
+model loss: 0.557523224437446
+validation metric: 0.581734437170041
+------------------------
+training epoch: 131
+model loss: 0.5575221280256907
+validation metric: 0.5817100896732901
+------------------------
+training epoch: 132
+model loss: 0.5575210331824788
+validation metric: 0.5816857178033829
+------------------------
+training epoch: 133
+model loss: 0.5575199587303296
+validation metric: 0.5816613059570236
+------------------------
+training epoch: 134
+model loss: 0.557518902577852
+validation metric: 0.5816368724335046
+------------------------
+training epoch: 135
+model loss: 0.5575178506081564
+validation metric: 0.5816124167543101
+------------------------
+training epoch: 136
+model loss: 0.5575168148467415
+validation metric: 0.5815879413191722
+------------------------
+training epoch: 137
+model loss: 0.5575157916336729
+validation metric: 0.5815634384476529
+------------------------
+training epoch: 138
+model loss: 0.5575147752176252
+validation metric: 0.5815389242939754
+------------------------
+training epoch: 139
+model loss: 0.5575137765784013
+validation metric: 0.5815143841862095
+------------------------
+training epoch: 140
+model loss: 0.557512772187852
+validation metric: 0.5814898486698732
+------------------------
+training epoch: 141
+model loss: 0.5575118007367117
+validation metric: 0.5814652855456824
+------------------------
+training epoch: 142
+model loss: 0.5575108266713327
+validation metric: 0.5814407161725269
+------------------------
+training epoch: 143
+model loss: 0.5575098719513207
+validation metric: 0.58141613080276
+------------------------
+training epoch: 144
+model loss: 0.5575089172313088
+validation metric: 0.5813915405713983
+------------------------
+training epoch: 145
+model loss: 0.5575079829023596
+validation metric: 0.5813669252419353
+------------------------
+training epoch: 146
+model loss: 0.5575070464820192
+validation metric: 0.5813423161768414
+------------------------
+training epoch: 147
+model loss: 0.5575061325441327
+validation metric: 0.5813176937319371
+------------------------
+training epoch: 148
+model loss: 0.557505223311876
+validation metric: 0.5812930739695599
+------------------------
+training epoch: 149
+model loss: 0.5575043213994879
+validation metric: 0.5812684489830598
+------------------------
+training epoch: 150
+model loss: 0.557503434649685
+validation metric: 0.5812438282928333
+------------------------
+training epoch: 151
+model loss: 0.5575025510369686
+validation metric: 0.5812192147976599
+------------------------
+training epoch: 152
+model loss: 0.5575016784040552
+validation metric: 0.5811945725587541
+------------------------
+training epoch: 153
+model loss: 0.5575008177966402
+validation metric: 0.5811699483187197
+------------------------
+training epoch: 154
+model loss: 0.5574999660776373
+validation metric: 0.581145316688293
+------------------------
+training epoch: 155
+model loss: 0.5574991227241984
+validation metric: 0.581120683197807
+------------------------
+training epoch: 156
+model loss: 0.5574982908734104
+validation metric: 0.5810960613607653
+------------------------
+training epoch: 157
+model loss: 0.5574974511799059
+validation metric: 0.5810714448028212
+------------------------
+training epoch: 158
+model loss: 0.5574966402430284
+validation metric: 0.5810468424561447
+------------------------
+training epoch: 159
+model loss: 0.5574958272147597
+validation metric: 0.5810222399186752
+------------------------
+training epoch: 160
+model loss: 0.557495023074903
+validation metric: 0.5809976311183356
+------------------------
+training epoch: 161
+model loss: 0.557494228346306
+validation metric: 0.580973029461272
+------------------------
+training epoch: 162
+model loss: 0.5574934383233389
+validation metric: 0.5809484458794278
+------------------------
+training epoch: 163
+model loss: 0.5574926666000433
+validation metric: 0.5809238705979353
+------------------------
+training epoch: 164
+model loss: 0.5574918854654881
+validation metric: 0.5808993109440481
+------------------------
+training epoch: 165
+model loss: 0.5574911273362344
+validation metric: 0.580874752591069
+------------------------
+training epoch: 166
+model loss: 0.5574903650241986
+validation metric: 0.5808501966596886
+------------------------
+training epoch: 167
+model loss: 0.557489615260509
+validation metric: 0.5808256565523745
+------------------------
+training epoch: 168
+model loss: 0.5574888790908613
+validation metric: 0.5808011233910872
+------------------------
+training epoch: 169
+model loss: 0.557488141875518
+validation metric: 0.5807766016058472
+------------------------
+training epoch: 170
+model loss: 0.5574874130257389
+validation metric: 0.5807520833495032
+------------------------
+training epoch: 171
+model loss: 0.5574866878358942
+validation metric: 0.580727585727736
+------------------------
+training epoch: 172
+model loss: 0.5574859762400911
+validation metric: 0.5807030979108364
+------------------------
+training epoch: 173
+model loss: 0.5574852656899837
+validation metric: 0.5806786058705558
+------------------------
+training epoch: 174
+model loss: 0.5574845661196792
+validation metric: 0.5806541335970324
+------------------------
+training epoch: 175
+model loss: 0.5574838738692435
+validation metric: 0.5806296647359833
+------------------------
+training epoch: 176
+model loss: 0.5574831753446344
+validation metric: 0.5806052262525864
+------------------------
+training epoch: 177
+model loss: 0.5574824914597628
+validation metric: 0.5805808049119595
+------------------------
+training epoch: 178
+model loss: 0.557481816986151
+validation metric: 0.5805563812721246
+------------------------
+training epoch: 179
+model loss: 0.5574811524466464
+validation metric: 0.5805319715171539
+------------------------
+training epoch: 180
+model loss: 0.557480481110121
+validation metric: 0.5805075757355298
+------------------------
+training epoch: 181
+model loss: 0.5574798217990942
+validation metric: 0.58048319071824
+------------------------
+training epoch: 182
+model loss: 0.557479171899327
+validation metric: 0.5804588328123383
+------------------------
+training epoch: 183
+model loss: 0.5574785183396256
+validation metric: 0.5804344895653394
+------------------------
+training epoch: 184
+model loss: 0.5574778809882047
+validation metric: 0.580410162498023
+------------------------
+training epoch: 185
+model loss: 0.5574772457281748
+validation metric: 0.5803858431224611
+------------------------
+training epoch: 186
+model loss: 0.5574766120366883
+validation metric: 0.5803615505385843
+------------------------
+training epoch: 187
+model loss: 0.5574759893250048
+validation metric: 0.5803372548901305
+------------------------
+training epoch: 188
+model loss: 0.5574753666133211
+validation metric: 0.5803129824933322
+------------------------
+training epoch: 189
+model loss: 0.5574747533128973
+validation metric: 0.5802887169344253
+------------------------
+training epoch: 190
+model loss: 0.5574741447181032
+validation metric: 0.5802644772536969
+------------------------
+training epoch: 191
+model loss: 0.5574735429203301
+validation metric: 0.5802402539973093
+------------------------
+training epoch: 192
+model loss: 0.5574729369397748
+validation metric: 0.5802160365759376
+------------------------
+training epoch: 193
+model loss: 0.5574723487360436
+validation metric: 0.5801918372624468
+------------------------
+training epoch: 194
+model loss: 0.557471752166748
+validation metric: 0.5801676594852256
+------------------------
+training epoch: 195
+model loss: 0.5574711723285809
+validation metric: 0.5801434843193042
+------------------------
+training epoch: 196
+model loss: 0.5574705930132615
+validation metric: 0.5801193324852757
+------------------------
+training epoch: 197
+model loss: 0.5574700116065511
+validation metric: 0.5800951941320102
+------------------------
+training epoch: 198
+model loss: 0.557469446930969
+validation metric: 0.5800710748187448
+------------------------
+training epoch: 199
+model loss: 0.5574688780726048
+validation metric: 0.5800469645478785
+finish train
+
+best epoch: 0
+finetune time spend: 146.82428455352783 
+
+After finetune
+ALGORITHM END 
+
+
+
+
+Evaluating program Start(MLP()) on TEST SET
+ALGORITHM END 
+
+
+
+
+Evaluating program Start(MLP()) on TEST SET
+ALGORITHM END 
+
+
